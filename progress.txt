@@ -7,4 +7,4 @@ then the circle will move to the right
 bcos of the draw() function running at 60x per second
 
 sebastian tried to get circle to go up along y axis
-sebastian cannot see colors, so we use col
+sebastian cannot see colors, so we use color names, and 

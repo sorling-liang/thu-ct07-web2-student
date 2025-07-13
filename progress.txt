@@ -4,4 +4,4 @@ we finished all the slides
 even have extra time
 so i show him variables
 then the circle will move to the right
-bcos of the draw()
+bcos of the draw() function running at 60x per second

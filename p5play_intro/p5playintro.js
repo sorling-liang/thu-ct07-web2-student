@@ -1,6 +1,6 @@
 function setup() {
   // Set up the canvas
-  new Canvas(400, 400);
+  new Canvas(600, 400);
   background(250); //background color
 
   // Basic shape testing

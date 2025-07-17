@@ -15,7 +15,8 @@ function setup() {
   strokeWeight(10); // pen size
   stroke("pink"); // line colour
 
-  circle()
+  //     x  y  diameter
+  circle(30,30,50);
 
   // ball = new Sprite();
   // ball.diameter = 50;

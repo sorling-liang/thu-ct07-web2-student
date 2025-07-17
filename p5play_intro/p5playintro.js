@@ -21,9 +21,9 @@ function setup() {
   // rect: rectangle
   rect(70,100,200,200);
 
-  // ball = new Sprite();
-  // ball.diameter = 50;
-  // ball.color = "hotpink";
+  ball = new Sprite();
+  ball.diameter = 50;
+  ball.color = "hotpink";
 
   // End Basic shape testing
 

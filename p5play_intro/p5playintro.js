@@ -1,6 +1,6 @@
 // for your variables
 let ball;
-
+let floor;
 
 function setup() {
   // Set up the canvas
@@ -20,8 +20,6 @@ function setup() {
   // //   x    y  w  h
   // // rect: rectangle
   // rect(70,100,200,200);
-
-  
 
   // End Basic shape testing
 

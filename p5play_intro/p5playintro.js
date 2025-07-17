@@ -58,6 +58,6 @@ function draw() {
     ball.vel.x = -1 * ball.vel.x;
   }
 
-  
+  floor.x = mouseX;
 
 }

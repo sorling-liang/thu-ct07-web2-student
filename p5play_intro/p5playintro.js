@@ -13,7 +13,9 @@ function setup() {
 
   fill("lightblue");
   strokeWeight(10); // pen size
-  stroke("pink"); 
+  stroke("pink"); // line colour
+
+  circle()
 
   // ball = new Sprite();
   // ball.diameter = 50;

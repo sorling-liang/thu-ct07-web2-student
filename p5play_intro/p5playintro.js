@@ -27,7 +27,7 @@ function setup() {
   ball.diameter = 50;
   ball.color = "hotpink";
   ball.y = 0;
-  ball.vel.y = 1;
+  ball.vel.y = 3;
   ball.bounciness = 0.9;
 
   floor = new Sprite();

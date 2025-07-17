@@ -1,3 +1,6 @@
+
+
+
 function setup() {
   // Set up the canvas
   new Canvas(600, 400);

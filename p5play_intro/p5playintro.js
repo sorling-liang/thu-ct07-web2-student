@@ -19,7 +19,7 @@ function setup() {
   circle(50,50,80);
   //   x    y  w  h
   // rect: rectangle
-  rect(70,100,80,200);
+  rect(70,100,200,200);
 
   // ball = new Sprite();
   // ball.diameter = 50;

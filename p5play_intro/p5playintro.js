@@ -20,6 +20,6 @@ function setup() {
 
 }
 
-// function draw() {
-//   // write your codes here
-// }
+function draw() {
+  // write your codes here
+}

@@ -2,6 +2,7 @@ function setup() {
   // Set up the canvas
   new Canvas(600, 400);
   background(200); // gray-tone 
+  background("steelblue"); // can use color names
 
   // Basic shape testing
   // write your codes here

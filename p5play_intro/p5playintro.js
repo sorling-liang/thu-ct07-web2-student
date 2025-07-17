@@ -21,14 +21,15 @@ function setup() {
   // // rect: rectangle
   // rect(70,100,200,200);
 
-  ball = new Sprite();
-  ball.diameter = 50;
-  ball.color = "hotpink";
+  
 
   // End Basic shape testing
 
    // Create a bouncing ball sprite
    // write your codes here
+   ball = new Sprite();
+  ball.diameter = 50;
+  ball.color = "hotpink";
 
 }
 

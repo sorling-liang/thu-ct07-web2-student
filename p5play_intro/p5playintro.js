@@ -49,6 +49,6 @@ function draw() {
   background("skyblue"); // can use color names
 
   if (ball.x > width) {
-    
+    ball.vel.x = -1 * ball.vel.x;
   }
 }

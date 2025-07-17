@@ -47,4 +47,8 @@ function draw() {
   // write your codes here
   // erase the drawing paper
   background("skyblue"); // can use color names
+
+  if (ball.x > width) {
+    
+  }
 }

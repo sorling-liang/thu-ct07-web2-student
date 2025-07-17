@@ -13,7 +13,7 @@ function setup() {
 
   fill("blue");
   strokeWeight(10); // pen size
-  stroke("pink"); // line colour
+  stroke("orange"); // line colour
 
   //     x  y  diameter
   circle(50,50,50);

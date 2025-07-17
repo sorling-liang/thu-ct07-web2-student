@@ -10,8 +10,9 @@ function setup() {
 
   // Basic shape testing
   // write your codes here
+  fill("lightblue");
+  strokeWeight(10)
 
-  
   // ball = new Sprite();
   // ball.diameter = 50;
   // ball.color = "hotpink";

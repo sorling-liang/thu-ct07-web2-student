@@ -11,15 +11,15 @@ function setup() {
   // Basic shape testing
   // write your codes here
 
-  fill("blue");
-  strokeWeight(10); // pen size
-  stroke("orange"); // line colour
+  // fill("blue");
+  // strokeWeight(10); // pen size
+  // stroke("orange"); // line colour
 
-  //     x  y  diameter
-  circle(50,50,80);
-  //   x    y  w  h
-  // rect: rectangle
-  rect(70,100,200,200);
+  // //     x  y  diameter
+  // circle(50,50,80);
+  // //   x    y  w  h
+  // // rect: rectangle
+  // rect(70,100,200,200);
 
   ball = new Sprite();
   ball.diameter = 50;

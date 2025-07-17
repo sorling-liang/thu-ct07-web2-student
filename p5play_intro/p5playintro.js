@@ -26,7 +26,7 @@ function setup() {
   ball = new Sprite();
   ball.diameter = 50;
   ball.color = "hotpink";
-  ball.y = 0; // start from the top
+  ball.y = 50; 
   //ball.vel.y = 3; // velocity in the Y direction
   ball.vel.x = 1;
   //ball.bounciness = 0.9;

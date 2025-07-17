@@ -52,5 +52,5 @@ function draw() {
     ball.vel.x = -1 * ball.vel.x; // go in reverse direction
   }
   // code challenge: write the if condition
-  // for ball to bounce off the left wall?
+  // for ball to bounce off the left wall.
 }

@@ -30,7 +30,7 @@ function setup() {
   ball.vel.y = 3; // velocity in the Y direction
   ball.bounciness = 0.9;
 
-  world.gravity.y = 10;
+  world.gravity.y = 10; // gravity like in earth
 
   floor = new Sprite();
   floor.w = 600; // width

@@ -31,7 +31,7 @@ function setup() {
 
   floor = new Sprite();
   floor.w = 600;
-
+  floor.y = 380;
 }
 
 // forever loop; run 60 times per second

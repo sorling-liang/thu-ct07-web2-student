@@ -32,6 +32,7 @@ function setup() {
   floor.h = 25; // height
   floor.y = 380; // y position
   floor.color = "blue";
+  floor.collider = "static";
 }
 
 // forever loop; run 60 times per second

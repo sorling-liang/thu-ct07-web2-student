@@ -42,5 +42,4 @@ function setup() {
 function draw() {
   // write your codes here
   background("skyblue"); // can use color names
-
 }

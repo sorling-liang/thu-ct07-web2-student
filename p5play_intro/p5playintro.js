@@ -12,6 +12,7 @@ function setup() {
   // write your codes here
   ball = new Sprite();
   ball.diameter = 50;
+  ball.color = "hotpink";
   // End Basic shape testing
 
    // Create a bouncing ball sprite

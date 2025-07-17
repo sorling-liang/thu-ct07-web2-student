@@ -30,6 +30,8 @@ function setup() {
   ball.vel.y = 3; // velocity in the Y direction
   ball.bounciness = 1;
 
+  world.gravity.y = 10;
+
   floor = new Sprite();
   floor.w = 600; // width
   floor.h = 25; // height

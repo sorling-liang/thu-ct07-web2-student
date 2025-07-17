@@ -17,7 +17,8 @@ function setup() {
 
   //     x  y  diameter
   circle(50,50,80);
-  rect();
+  //   x y w h
+  rect(100,100,);
 
   // ball = new Sprite();
   // ball.diameter = 50;

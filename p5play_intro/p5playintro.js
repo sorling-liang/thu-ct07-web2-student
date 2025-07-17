@@ -27,7 +27,8 @@ function setup() {
   ball.diameter = 50;
   ball.color = "hotpink";
   ball.y = 0; // start from the top
-  ball.vel.y = 3; // velocity in the Y direction
+  //ball.vel.y = 3; // velocity in the Y direction
+  ball.vel.x = 1;
   ball.bounciness = 0.9;
 
   world.gravity.y = 10; // gravity like in earth

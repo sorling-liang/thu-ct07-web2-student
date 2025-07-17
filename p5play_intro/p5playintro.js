@@ -35,7 +35,7 @@ function setup() {
   world.gravity.y = 10; // gravity like in earth
 
   floor = new Sprite();
-  floor.w = 600; // width
+  floor.w = 100; // width
   floor.h = 25; // height
   floor.y = 380; // y position
   floor.color = "blue";
@@ -58,5 +58,6 @@ function draw() {
     ball.vel.x = -1 * ball.vel.x;
   }
 
+  
 
 }

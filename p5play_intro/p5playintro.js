@@ -30,7 +30,7 @@ function setup() {
   ball.color = "hotpink";
 
   floor = new Sprite();
-  floor.w = 600;
+  floor.w = 600; // width
   floor.h = 25;
   floor.y = 380;
   floor.color = "blue";

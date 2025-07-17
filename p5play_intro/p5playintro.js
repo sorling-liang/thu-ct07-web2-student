@@ -1,4 +1,5 @@
-
+// for your variables
+let ball;
 
 
 function setup() {

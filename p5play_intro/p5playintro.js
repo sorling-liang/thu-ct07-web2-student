@@ -31,7 +31,9 @@ function setup() {
 
   floor = new Sprite();
   floor.w = 600;
-  floor.y = 360;
+  floor.h = 25;
+  floor.y = 380;
+  floor.color = "blue";
 }
 
 // forever loop; run 60 times per second

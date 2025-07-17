@@ -15,11 +15,11 @@ function draw() {
 
     fill("red"); 
     // x    y    diameter
-circle(posx, posy, 50);
-posx = posx + 1;
-posy = posy + 0.41;
-fill("yellow"); 
-circle(150, 105, 50);
-fill("green"); 
-circle(150, 160, 50);
+    circle(posx, posy, 50);
+    posx = posx + 1;
+    posy = posy + 0.41;
+    fill("yellow"); 
+    circle(150, 105, 50);
+    fill("green"); 
+    circle(150, 160, 50);
 }

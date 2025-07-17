@@ -28,6 +28,7 @@ function setup() {
   ball.color = "hotpink";
   ball.y = 0;
   ball.vel.y = 1;
+  ball.bounciness = 0.9;
 
   floor = new Sprite();
   floor.w = 600; // width

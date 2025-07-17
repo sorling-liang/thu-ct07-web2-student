@@ -29,6 +29,9 @@ function setup() {
   ball.diameter = 50;
   ball.color = "hotpink";
 
+  floor = new Sprite();
+  floor.w = 600;
+
 }
 
 // forever loop; run 60 times per second

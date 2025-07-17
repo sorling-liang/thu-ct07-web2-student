@@ -25,9 +25,9 @@ function setup() {
 
   // End Basic shape testing
 
-   // Create a bouncing ball sprite
-   // write your codes here
-   ball = new Sprite();
+  // Create a bouncing ball sprite
+  // write your codes here
+  ball = new Sprite();
   ball.diameter = 50;
   ball.color = "hotpink";
 

@@ -16,7 +16,7 @@ function setup() {
   stroke("orange"); // line colour
 
   //     x  y  diameter
-  circle(50,50,50);
+  circle(50,50,80);
 
   // ball = new Sprite();
   // ball.diameter = 50;

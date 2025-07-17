@@ -53,4 +53,7 @@ function draw() {
   }
   // code challenge: write the if condition
   // for ball to bounce off the left wall.
+  if (ball.x < 0) {
+    ball.vel.x = -1 * ball.vel.x;
+  }
 }

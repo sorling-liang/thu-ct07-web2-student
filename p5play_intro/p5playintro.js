@@ -30,7 +30,7 @@ function setup() {
   ball.y = 50; 
   ball.vel.y = 3; // velocity in the Y direction
   ball.vel.x = 3;
-  // ball.bounciness = 0.9;
+  ball.bounciness = 0.9;
 
   world.gravity.y = 10; // gravity like in earth
 
@@ -58,6 +58,9 @@ function draw() {
     ball.vel.x = -1 * ball.vel.x;
   }
 
+   if (ball.x > width) {
+    ball.vel.x = -1 * ball.vel.x; // go in reverse direction
+  }
   floor.x = mouseX;
 
 }

@@ -31,8 +31,8 @@ function setup() {
 
   floor = new Sprite();
   floor.w = 600; // width
-  floor.h = 25;
-  floor.y = 380;
+  floor.h = 25; // height
+  floor.y = 380; // y position
   floor.color = "blue";
 }
 

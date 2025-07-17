@@ -26,7 +26,7 @@ function setup() {
   ball = new Sprite();
   ball.diameter = 50;
   ball.color = "hotpink";
-  ball.vel.y = 3;
+  ball.vel.y = 1;
 
   floor = new Sprite();
   floor.w = 600; // width

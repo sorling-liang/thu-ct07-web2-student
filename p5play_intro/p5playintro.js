@@ -20,6 +20,7 @@ function setup() {
 
 }
 
+// forever loop; run 60 times per second
 function draw() {
   // write your codes here
 }

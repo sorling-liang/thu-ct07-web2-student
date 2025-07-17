@@ -10,7 +10,6 @@ function setup() {
 
   // Basic shape testing
   // write your codes here
-
   // fill("blue");
   // strokeWeight(10); // pen size
   // stroke("orange"); // line colour
@@ -20,7 +19,6 @@ function setup() {
   // //   x    y  w  h
   // // rect: rectangle
   // rect(70,100,200,200);
-
   // End Basic shape testing
 
   // Create a bouncing ball sprite

@@ -40,6 +40,7 @@ function setup() {
   zoo[0] = "tiger"; // list index starts from 0
   console.log(zoo[0]);
   zoo.push("panda");
+  zoo.push("goose");
   console.log(zoo);
   console.log("how many?" , zoo.length);
 }

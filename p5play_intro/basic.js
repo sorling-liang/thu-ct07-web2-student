@@ -36,7 +36,8 @@ function setup() {
 
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
-  
+  let zoo = []; // empty list
+  zoo[]
 }
 
 function draw() {

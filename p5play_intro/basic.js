@@ -20,8 +20,8 @@ function setup() {
   // write your codes here
   // i++;  is the same as i=i+1;
   // i--;  is the same as i=i-1;
-  
-  for (let i=1; i<11; i=i-1) {
+
+  for (let i=2; i<21; i=i+1) {
     console.log("counting " + i);
   }
   console.log("stopped the loop");

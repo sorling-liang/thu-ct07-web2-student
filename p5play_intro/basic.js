@@ -24,7 +24,7 @@ function setup() {
   let total = 0;
   for (let i=2; i<21; i++) {
     console.log("counting " + i);
-    total += i; // total = total + i;
+    total += 2; // total = total + i;
   }
   console.log("stopped the loop");
 

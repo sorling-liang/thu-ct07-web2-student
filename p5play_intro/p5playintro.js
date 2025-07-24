@@ -27,8 +27,8 @@ function setup() {
   ball.diameter = 50;
   ball.color = "hotpink";
   ball.x = 10; // start from the left side
-  ball.y = 50; 
-  ball.vel.y = 3; // velocity in the Y direction
+  ball.y = 0; 
+  ball.vel.y = 1; // velocity in the Y direction
   ball.vel.x = 3;
   // ball.bounciness = 0.9;
 

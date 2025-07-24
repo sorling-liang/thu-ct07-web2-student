@@ -39,7 +39,7 @@ function setup() {
   floor.h = 25; // height
   floor.y = 380; // y position
   floor.color = "blue";
-  floor.collider = "static"; // non-moving block
+  floor.collider = "static"; // non-moving block/sprite
 
 } // last line of setup() function
 

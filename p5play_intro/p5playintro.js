@@ -68,4 +68,5 @@ function draw() {
   }  
 
   floor.x = mouseX; // mouse position use mouseX
+  floor.y = mouseY;
 } // this is the last line

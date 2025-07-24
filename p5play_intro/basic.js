@@ -21,12 +21,12 @@ function setup() {
   // i++;  is the same as i=i+1;
   // i--;  is the same as i=i-1;
 
-  let total = 0;
-  for (let i=2; i<21; i++) {
-    console.log("counting " + i);
-    total += i; // total = total + i;
-  }
-  console.log("stopped the loop");
+  // let total = 0;
+  // for (let i=2; i<21; i++) {
+  //   console.log("counting " + i);
+  //   total += i; // total = total + i;
+  // }
+  // console.log("stopped the loop");
 
   // --- Exercise: Age category classification ---
   // write your codes here
@@ -36,6 +36,7 @@ function setup() {
 
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
+  
 }
 
 function draw() {

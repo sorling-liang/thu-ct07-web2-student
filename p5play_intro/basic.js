@@ -22,7 +22,7 @@ function setup() {
   // i--;  is the same as i=i-1;
 
   let total = 0;
-  for (let i=2; i<21; i++) {
+  for (let i=2; i<21; i) {
     console.log("counting " + i);
     total += 2; // total = total + i;
   }

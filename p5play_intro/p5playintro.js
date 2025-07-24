@@ -45,29 +45,29 @@ function setup() {
 
 // forever loop; run 60 times per second
 function draw() {
-  // write your codes here
-  // erase the drawing paper
-  background("skyblue"); // can use color names
+    // write your codes here
+    // erase the drawing paper
+    background("skyblue"); // can use color names
 
-  if (ball.x > width) {
-    ball.vel.x = -1 * ball.vel.x; // go in reverse direction
-  }
+    if (ball.x > width) {
+      ball.vel.x = -1 * ball.vel.x; // go in reverse direction
+    }
 
-  // code challenge: write the if condition
-  // for ball to bounce off the left wall.
-  if (ball.x < 0) {
-    ball.vel.x = -1 * ball.vel.x;
-  }
+    // code challenge: write the if condition
+    // for ball to bounce off the left wall.
+    if (ball.x < 0) {
+      ball.vel.x = -1 * ball.vel.x;
+    }
 
-  // height // bottom of the drawing canvas
-  if (ball.y > height) {
-    ball.vel.y = -1 * ball.vel.y; // go in reverse direction
-  }
-  if (ball.y < 0) {
-    ball.vel.y = -1 * ball.vel.y; // go in reverse direction
-  }  
+    // height // bottom of the drawing canvas
+    if (ball.y > height) {
+      ball.vel.y = -1 * ball.vel.y; // go in reverse direction
+    }
+    if (ball.y < 0) {
+      ball.vel.y = -1 * ball.vel.y; // go in reverse direction
+    }  
 
-  floor.x = mouseX; // mouse position use mouseX
-  floor.y = mouseY;
+    floor.x = mouseX; // mouse position use mouseX
+    floor.y = mouseY;
 
 } // this is the last line

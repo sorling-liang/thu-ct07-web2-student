@@ -10,6 +10,7 @@ function setup() {
   let b = 10;
 
   textSize(16);
+  text("hello", 50, 50);
   
   // --- Exercise: Area of Triangle ---
   // write your codes here

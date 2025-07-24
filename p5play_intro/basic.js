@@ -6,6 +6,11 @@ function setup() {
   // python print
   console.log("Hello I am here");
 
+  let a = 5;
+  let b = 10;
+
+  textSize(16);
+  
   // --- Exercise: Area of Triangle ---
   // write your codes here
 

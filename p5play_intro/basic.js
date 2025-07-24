@@ -43,6 +43,7 @@ function setup() {
   zoo.push("goose");
   console.log(zoo); // print the whole list
   console.log("how many?" , zoo.length);
+  zoo[zoo.length] = "";
   // must use a loop, to print out each animal
   for (let index=0; index<zoo.length; index++) {
     console.log(zoo[index]);

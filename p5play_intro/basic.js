@@ -37,7 +37,8 @@ function setup() {
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
   let zoo = []; // empty list
-  zoo[]
+  zoo[0] = "tiger";
+  console.log(zoo[0])
 }
 
 function draw() {

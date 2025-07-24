@@ -66,6 +66,6 @@ function draw() {
   if (ball.y < 0) {
     ball.vel.y = -1 * ball.vel.y; // go in reverse direction
   }  
-  
-  floor.x = mouseX;
+
+  floor.x = mouseX; // mouse position use mouseX
 }

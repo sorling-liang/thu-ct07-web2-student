@@ -36,7 +36,7 @@ function setup() {
 
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
-  let zoo = []; // empty list
+  let zoo = ["panda","goose"]; // empty list
   zoo[0] = "tiger"; // list index starts from 0
   console.log(zoo[0]);
 }

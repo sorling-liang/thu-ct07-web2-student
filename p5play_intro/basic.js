@@ -39,7 +39,7 @@ function setup() {
   let zoo = []; // empty list
   zoo[0] = "tiger"; // list index starts from 0
   console.log(zoo[0]);
-  zoo.push("panda");
+  zoo.push("panda"); // join the queue at the end of the list
   zoo.push("goose");
   console.log(zoo);
   console.log("how many?" , zoo.length);

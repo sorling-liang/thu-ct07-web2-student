@@ -7,7 +7,7 @@ function setup() {
   console.log("Hello I am here");
 
   let a = 5;
-  let b = 10;
+  let b = 100;
   let sum = a + b;
 
   textSize(36);

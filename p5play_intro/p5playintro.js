@@ -61,7 +61,10 @@ function draw() {
 
   // height // bottom of the drawing canvas
   if (ball.y > height) {
-    ball.vel.x = -1 * ball.vel.x; // go in reverse direction
+    ball.vel.y = -1 * ball.vel.y; // go in reverse direction
   }
+  if (ball.y > height) {
+    ball.vel.y = -1 * ball.vel.y; // go in reverse direction
+  }  
   floor.x = mouseX;
 }

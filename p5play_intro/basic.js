@@ -41,7 +41,7 @@ function setup() {
   console.log(zoo[0]);
   zoo.push("panda"); // join the queue at the end of the list
   zoo.push("goose");
-  console.log(zoo);
+  console.log(zoo); // print the whole list
   console.log("how many?" , zoo.length);
 }
 

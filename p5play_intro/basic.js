@@ -20,7 +20,7 @@ function setup() {
   // write your codes here
   // i++;  is the same as i=i+1;
   //
-  for (let i=0; i<11; i=i+1) {
+  for (let i=1; i<11; i=i+1) {
     console.log("counting " + i);
   }
   // --- Exercise: Age category classification ---

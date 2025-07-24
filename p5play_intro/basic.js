@@ -41,7 +41,7 @@ function setup() {
   console.log(zoo[1]);
   zoo.push("panda");
   console.log(zoo);
-  con
+  console.log("how many?" + zoo.length);
 }
 
 function draw() {

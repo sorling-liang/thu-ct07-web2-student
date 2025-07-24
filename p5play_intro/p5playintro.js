@@ -58,14 +58,5 @@ function draw() {
     ball.vel.x = -1 * ball.vel.x;
   }
 
-  if (ball.y > height) {
-    ball.vel.y = -1 * ball.vel.y; // go in reverse direction
-  }
-
-  if (ball.y < 0) {
-    ball.vel.y = -1 * ball.vel.y; // go in reverse direction
-  }
-  
   floor.x = mouseX;
-
 }

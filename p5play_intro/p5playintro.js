@@ -28,8 +28,8 @@ function setup() {
   ball.color = "hotpink";
   ball.x = 300; // start from the left side
   ball.y = 0; 
-  ball.vel.y = 1; // velocity in the Y direction
-  ball.vel.x = 1;
+  ball.vel.y = 3; // velocity in the Y direction
+  ball.vel.x = 3;
   // ball.bounciness = 0.9;
 
   // world.gravity.y = 10; // gravity like in earth

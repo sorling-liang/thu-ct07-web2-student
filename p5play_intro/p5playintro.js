@@ -40,7 +40,8 @@ function setup() {
   floor.y = 380; // y position
   floor.color = "blue";
   floor.collider = "static";
-}
+  
+} // last line of setup() function
 
 // forever loop; run 60 times per second
 function draw() {

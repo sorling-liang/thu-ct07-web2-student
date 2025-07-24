@@ -38,7 +38,8 @@ function setup() {
   // write your codes here
   let zoo = ["panda","goose"]; // empty list
   zoo[0] = "tiger"; // list index starts from 0
-  console.log(zoo[0]);
+  console.log(zoo[1]);
+  
 }
 
 function draw() {

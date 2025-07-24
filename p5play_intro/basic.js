@@ -40,6 +40,8 @@ function setup() {
   zoo[0] = "tiger"; // list index starts from 0
   console.log(zoo[1]);
   zoo.push("panda");
+  console.log(zoo);
+  con
 }
 
 function draw() {

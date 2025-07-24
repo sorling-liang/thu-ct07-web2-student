@@ -11,7 +11,7 @@ function setup() {
   let sum = a + b;
 
   textSize(36);
-  text("hello: " + sum);
+  text("hello: " + sum, 150, 150);
 
   // --- Exercise: Area of Triangle ---
   // write your codes here

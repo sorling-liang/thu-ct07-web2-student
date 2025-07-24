@@ -59,5 +59,7 @@ function draw() {
     ball.vel.x = -1 * ball.vel.x;
   }
 
+  // height // bottom of the drawing canvas
+
   floor.x = mouseX;
 }

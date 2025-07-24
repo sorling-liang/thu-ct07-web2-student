@@ -49,8 +49,9 @@ function draw() {
     // erase the drawing paper
     background("skyblue"); // can use color names
 
-    if (ball.x > width) {ball.vel.x = -1 * ball.vel.x; // go in reverse direction
-      }
+    if (ball.x > width) {
+        ball.vel.x = -1 * ball.vel.x; // go in reverse direction
+    }
 
     // code challenge: write the if condition
     // for ball to bounce off the left wall.

@@ -30,7 +30,7 @@ function setup() {
   ball.y = 0; 
   ball.vel.y = 3; // velocity in the Y direction
   ball.vel.x = 3;
-  // ball.bounciness = 0.9;
+  ball.bounciness = 1.1;
 
   // world.gravity.y = 10; // gravity like in earth
 
@@ -69,5 +69,5 @@ function draw() {
 
   floor.x = mouseX; // mouse position use mouseX
   floor.y = mouseY;
-  
+
 } // this is the last line

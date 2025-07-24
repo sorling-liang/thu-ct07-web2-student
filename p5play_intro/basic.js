@@ -20,11 +20,11 @@ function setup() {
   // write your codes here
   // i++;  is the same as i=i+1;
   //
-  for (let i=1; i<11; i=i+1) {
+  for (let i=1; i<11; i=i-1) {
     console.log("counting " + i);
   }
   console.log("stopped the loop");
-  
+
   // --- Exercise: Age category classification ---
   // write your codes here
 

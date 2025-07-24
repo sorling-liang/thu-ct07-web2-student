@@ -29,7 +29,7 @@ function setup() {
   ball.x = 10; // start from the left side
   ball.y = 0; 
   ball.vel.y = 1; // velocity in the Y direction
-  ball.vel.x = 3;
+  ball.vel.x = 1;
   // ball.bounciness = 0.9;
 
   // world.gravity.y = 10; // gravity like in earth

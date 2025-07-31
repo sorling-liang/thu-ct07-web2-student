@@ -1,4 +1,6 @@
 // the final game
+
+// variables goes here
 let bird, floor; // sprites
 let bg, base; // images
 

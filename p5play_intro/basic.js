@@ -36,18 +36,20 @@ function setup() {
 
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
-  let zoo = []; // empty list
-  zoo[0] = "tiger"; // list index starts from 0
-  console.log(zoo[0]);
-  zoo.push("panda"); // join the queue at the end of the list
-  zoo.push("goose");
-  console.log(zoo); // print the whole list
-  console.log("how many?" , zoo.length);
-  zoo[zoo.length] = "polar bear";
-  // must use a loop, to print out each animal
-  for (let index=0; index<zoo.length; index++) {
-    console.log(zoo[index]);
-  }
+  // let zoo = []; // empty list
+  // zoo[0] = "tiger"; // list index starts from 0
+  // console.log(zoo[0]);
+  // zoo.push("panda"); // join the queue at the end of the list
+  // zoo.push("goose");
+  // console.log(zoo); // print the whole list
+  // console.log("how many?" , zoo.length);
+  // zoo[zoo.length] = "polar bear";
+  // // must use a loop, to print out each animal
+  // for (let index=0; index<zoo.length; index++) {
+  //   console.log(zoo[index]);
+  // }
+  
+  // lesson 3 last coding task
 }
 
 function draw() {

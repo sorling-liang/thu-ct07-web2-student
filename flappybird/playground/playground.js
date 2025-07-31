@@ -24,5 +24,5 @@ function setup() {
 // where interaction and animation
 function draw() {
     // show the background image
-    image(bg, 0, 0, )
+    image(bg, 0, 0, width, height);
 }

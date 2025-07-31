@@ -3,6 +3,7 @@
 // similar to "when green flag clicked"
 // run once
 function setup() {
+    // width, height
     new Canvas(400, 600);
     background("white");
 }

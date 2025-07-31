@@ -3,6 +3,7 @@
 // similar to "when green flag clicked"
 // run once
 function setup() {
+    new C
 
 }
 

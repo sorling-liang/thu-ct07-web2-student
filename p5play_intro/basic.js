@@ -59,6 +59,7 @@ function setup() {
   let ypos = 180;
   for (let item of groceries) {
     text(item, 150, ypos);
+    ypos = ypos + 45;
   }
 
 

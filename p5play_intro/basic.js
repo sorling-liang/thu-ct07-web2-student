@@ -57,8 +57,9 @@ function setup() {
 
   textSize(36);
   let ypos = 180;
-  
-  text("hello: " + sum, 150, ypos);
+  for (let item of groceries) {
+    text("hello: " + sum, 150, ypos);
+  }
 
 
 } // this is the last line for setup()

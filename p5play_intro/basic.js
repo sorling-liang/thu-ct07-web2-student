@@ -54,7 +54,8 @@ function setup() {
   groceries.push("orange");
   groceries.push("butter");
   console.log(groceries);
-}
+  
+} // this is the last line for setup()
 
 function draw() {
   // nothing here

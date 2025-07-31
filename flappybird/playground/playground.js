@@ -4,6 +4,12 @@
 let bird, floor; // sprites
 let bg, base; // images
 
+// 
+function preload() {
+
+}
+
+
 // similar to "when green flag clicked"
 // run once
 function setup() {

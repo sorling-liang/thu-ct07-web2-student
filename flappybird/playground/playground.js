@@ -7,7 +7,7 @@ function setup() {
     new Canvas(400, 600);
     
     // color name is fine
-    background("skyblue");
+    background("skyblue"); // gray
 }
 
 // called repeatedly 60 times per 1 second

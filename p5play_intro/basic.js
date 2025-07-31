@@ -59,6 +59,7 @@ function setup() {
   textSize(36);
   let ypos = 180;
   for (let item of groceries) {
+    //   string, xpos, ypos
     text(item, 150, ypos);
     ypos = ypos + 45;
   }

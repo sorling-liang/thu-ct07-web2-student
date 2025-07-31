@@ -54,6 +54,7 @@ function setup() {
   groceries.push("orange");
   groceries.push("butter");
   console.log(groceries);
+  groceries[1] = "kaya";
 
   textSize(36);
   let ypos = 180;

@@ -23,5 +23,6 @@ function setup() {
 // called repeatedly 60 times per 1 second
 // where interaction and animation
 function draw() {
-    // nothing for now
+    // show the background image
+    image(bg, 0, 0, )
 }

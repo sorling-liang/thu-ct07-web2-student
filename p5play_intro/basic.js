@@ -6,12 +6,12 @@ function setup() {
   // python print
   console.log("Hello I am here");
 
-  let a = 5;
-  let b = 100;
-  let sum = a + b;
+  // let a = 5;
+  // let b = 100;
+  // let sum = a + b;
 
-  textSize(36);
-  text("hello: " + sum, 150, 150);
+  // textSize(36);
+  // text("hello: " + sum, 150, 150);
 
   // --- Exercise: Area of Triangle ---
   // write your codes here
@@ -54,7 +54,11 @@ function setup() {
   groceries.push("orange");
   groceries.push("butter");
   console.log(groceries);
-  
+
+    textSize(36);
+  text("hello: " + sum, 150, 150);
+
+
 } // this is the last line for setup()
 
 function draw() {

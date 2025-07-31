@@ -55,7 +55,7 @@ function setup() {
   groceries.push("butter");
   console.log(groceries);
 
-    textSize(36);
+  textSize(36);
   text("hello: " + sum, 150, 150);
 
 

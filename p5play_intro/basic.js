@@ -48,8 +48,9 @@ function setup() {
   // for (let index=0; index<zoo.length; index++) {
   //   console.log(zoo[index]);
   // }
-  
-  // lesson 3 last coding task
+
+  // lesson 3 last coding task (today is lesson 4)
+  let groceries = [""]
 }
 
 function draw() {

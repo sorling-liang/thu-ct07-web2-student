@@ -1,6 +1,6 @@
 // the final game
 
-// si
+// similar to "when green flag clicked"
 function setup() {
 
 }

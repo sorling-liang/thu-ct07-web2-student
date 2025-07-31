@@ -24,7 +24,7 @@ function setup() {
 // where interaction and animation
 function draw() {
     // show the background image
-    // width
-    /
+    // width: width of the canvas object
+    // height: height of the canvas object
     image(bg, 0, 0, width, height);
 }

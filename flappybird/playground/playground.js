@@ -6,7 +6,7 @@ let bg, base; // images
 
 // load media files like images or sound effects
 function preload() {
-
+    bg = 
 }
 
 

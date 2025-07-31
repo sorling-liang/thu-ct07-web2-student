@@ -1,5 +1,6 @@
 // the final game
 let bird, floor;
+let bg, base;
 
 // similar to "when green flag clicked"
 // run once

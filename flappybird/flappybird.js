@@ -5,11 +5,10 @@
 function setup() {
     new Canvas(400, 600);
     background("white");
-
 }
 
 // called repeatedly 60 times per 1 second
 // where interaction and animation
 function draw() {
-
+    // nothing for now
 }

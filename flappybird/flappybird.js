@@ -5,6 +5,8 @@
 function setup() {
     // width, height
     new Canvas(400, 600);
+    
+    // color name is fine
     background("white");
 }
 

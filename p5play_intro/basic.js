@@ -51,7 +51,8 @@ function setup() {
 
   // lesson 3 last coding task (today is lesson 4)
   let groceries = ["apple", "bread", "milk"];
-  g
+  groceries.push("orange");
+  groceries.push("")
 }
 
 function draw() {

@@ -56,7 +56,9 @@ function setup() {
   console.log(groceries);
 
   textSize(36);
-  text("hello: " + sum, 150, 150);
+  let ypos = 180;
+  
+  text("hello: " + sum, 150, ypos);
 
 
 } // this is the last line for setup()

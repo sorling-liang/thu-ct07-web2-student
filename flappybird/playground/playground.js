@@ -55,10 +55,13 @@ function draw() {
     // height: height of the canvas object
     image(bg, 0, 0, width, height);
 
-    if (mouse.presses("left")) {
-        new Sprite(mouseX, mouseY, 30, 30, "dynamic");
+    if (kb.presses("space")) {
+        
     }
-    if (mouse.presses("right")) {
-        new Sprite(mouseX, mouseY, 30, 30, "static");
-    }
+    // if (mouse.presses("left")) {
+    //     new Sprite(mouseX, mouseY, 30, 30, "dynamic");
+    // }
+    // if (mouse.presses("right")) {
+    //     new Sprite(mouseX, mouseY, 30, 30, "static");
+    // }
 }

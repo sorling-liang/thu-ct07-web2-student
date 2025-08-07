@@ -14,8 +14,8 @@ function preload() {
 // similar to "when green flag clicked"
 // run once
 function setup() {
-    // width, height
-    new Canvas(400, 600);
+    //       width, height
+    new Canvas(400, 600); // smart phone
     
     // color name is fine
     background("skyblue"); // gray

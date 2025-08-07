@@ -27,6 +27,10 @@ function setup() {
     // color name is fine
     background("skyblue"); // gray
 
+    // bird sprite
+    bird = new Sprite();
+    bird.img = fl
+
     floor = new Sprite();
     floor.collider = "static"; // dont move, stay at the position
     floor.y = height - 50;

@@ -69,6 +69,8 @@ function draw() {
     //     new Sprite(mouseX, mouseY, 30, 30, "static");
     // }
 
+    
+
     fill("blue");
     textSize(14);
     //                                      x   y

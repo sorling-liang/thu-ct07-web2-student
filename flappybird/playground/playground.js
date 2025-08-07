@@ -71,5 +71,5 @@ function draw() {
 
     fill("blue");
     textSize(14);
-    text('vel.y: ')
+    text('vel.y: ' + bird.vel.y, 10, 20);
 }

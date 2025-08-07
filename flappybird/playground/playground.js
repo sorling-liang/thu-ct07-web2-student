@@ -19,6 +19,9 @@ function setup() {
     
     // color name is fine
     background("skyblue"); // gray
+
+    let floor = new Sprite();
+    floor.img = base;
 }
 
 // called repeatedly 60 times per 1 second

@@ -21,6 +21,7 @@ function setup() {
     background("skyblue"); // gray
 
     floor = new Sprite();
+    floor.collider = "static";
     floor.y = height - 50;
     floor.img = base;
 }

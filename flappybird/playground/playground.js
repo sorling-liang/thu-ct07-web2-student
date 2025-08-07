@@ -11,7 +11,7 @@ function preload() {
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png'); // floor
 
-    // load 3 images
+    // load 3 images into 3 variables
 }
 
 

@@ -33,6 +33,8 @@ function setup() {
     bird.y = 200;
     bird.width = 30;
     bird.height = 30;
+    bird.mass = 2;
+    bird.
     bird.bounciness = 1;
 
     world.gravity.y = 10;

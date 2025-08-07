@@ -55,4 +55,8 @@ function draw() {
     // width: width of the canvas object
     // height: height of the canvas object
     image(bg, 0, 0, width, height);
+
+    if (mouse.presses("left")) {
+        
+    }
 }

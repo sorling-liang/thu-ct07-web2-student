@@ -70,7 +70,7 @@ function draw() {
     // }
 
     if (bird.vel.y < -1) {
-        bird.img = fl
+        bird.img = flapDownImg;
     }
 
     fill("blue");

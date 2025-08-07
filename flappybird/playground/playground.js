@@ -56,7 +56,7 @@ function draw() {
     image(bg, 0, 0, width, height);
 
     if (kb.presses("space")) {
-        bird.vel.y = -5; // go in upward direction
+        bird.vel.y = -5; // go in upward direction; velocity in the direction y axis
         bird.sleeping = false; // wake up if sleeping
     }
 

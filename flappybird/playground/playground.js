@@ -4,12 +4,14 @@
 let bird, floor; // sprites
 let bg, base; // images
 
-let flapMidImg, flapDownImg, flapUpImg;
+let flapMidImg, flapDownImg, flapUpImg; // bird images
 
 // load media files like images or sound effects
 function preload() {
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png'); // floor
+
+    // load 3 images
 }
 
 

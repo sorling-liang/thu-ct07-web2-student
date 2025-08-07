@@ -13,8 +13,8 @@ function preload() {
 
     // load 3 images into 3 variables
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
-    flapMidImg = loadImage('assets/yellowbird-downflap.png');
-    flapMidImg = loadImage('assets/yellowbird-upflap.png');
+    flapDownImg = loadImage('assets/yellowbird-downflap.png');
+    flapUpImg = loadImage('assets/yellowbird-upflap.png');
 }
 
 

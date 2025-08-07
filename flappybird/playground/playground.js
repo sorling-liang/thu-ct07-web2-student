@@ -55,7 +55,7 @@ function draw() {
     // height: height of the canvas object
     image(bg, 0, 0, width, height);
 
-    if (kb.presses("space") || mouse.presses("left")    ) {
+    if (  kb.presses("space") || mouse.presses("left")  ) {
         bird.vel.y = -5; // go in upward direction; velocity in the direction y axis
         bird.sleeping = false; // wake up if sleeping
     }

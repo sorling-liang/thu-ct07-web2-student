@@ -71,6 +71,6 @@ function draw() {
 
     fill("blue");
     textSize(14);
-    //                            x   y
-    text('vel.y: ' + bird.vel.y, 10, 20);
+    //                                      x   y
+    text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
 }

@@ -20,7 +20,7 @@ function setup() {
     // color name is fine
     background("skyblue"); // gray
 
-    let floor = new Sprite();
+    floor = new Sprite();
     floor.y = height - 50;
     floor.img = base;
 }

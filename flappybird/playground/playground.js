@@ -70,4 +70,6 @@ function draw() {
     // }
 
     fill("blue");
+    textSize(14);
+    
 }

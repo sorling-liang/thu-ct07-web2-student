@@ -35,7 +35,7 @@ function setup() {
     bird.height = 30;
     bird.mass = 2; // heavier = stronger pull from gravity
     bird.drag = 0.02; // air resistance
-    bird.bounciness = 1;
+    bird.bounciness = 0.9;
 
     world.gravity.y = 10;
 

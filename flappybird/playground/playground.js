@@ -56,6 +56,7 @@ function draw() {
     image(bg, 0, 0, width, height);
 
     // || or condition in JavaScript
+    // && and condition in JavaScript
     if (  kb.presses("space") || mouse.presses("left")  ) {
         bird.vel.y = -5; // go in upward direction; velocity in the direction y axis
         bird.sleeping = false; // wake up if sleeping

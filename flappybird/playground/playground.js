@@ -4,6 +4,7 @@
 let bird, floor; // sprites
 let bg, base; // images
 
+let birdMidFlap
 // load media files like images or sound effects
 function preload() {
     bg = loadImage('assets/background-day.png');

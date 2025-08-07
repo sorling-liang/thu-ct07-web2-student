@@ -30,6 +30,7 @@ function setup() {
     // bird sprite
     bird = new Sprite();
     bird.img = flapMidImg;
+    bird.
 
     floor = new Sprite();
     floor.collider = "static"; // dont move, stay at the position

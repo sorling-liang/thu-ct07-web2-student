@@ -69,7 +69,9 @@ function draw() {
     //     new Sprite(mouseX, mouseY, 30, 30, "static");
     // }
 
-    
+    if (bird.vel.y < -1) {
+        bird.img = fl
+    }
 
     fill("blue");
     textSize(14);

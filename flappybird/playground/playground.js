@@ -68,4 +68,6 @@ function draw() {
     // if (mouse.presses("right")) {
     //     new Sprite(mouseX, mouseY, 30, 30, "static");
     // }
+
+    fill("blue");
 }

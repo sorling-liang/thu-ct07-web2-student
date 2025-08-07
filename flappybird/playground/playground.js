@@ -56,8 +56,9 @@ function draw() {
     image(bg, 0, 0, width, height);
 
     if (kb.presses("space")) {
-        
+
     }
+    
     // if (mouse.presses("left")) {
     //     new Sprite(mouseX, mouseY, 30, 30, "dynamic");
     // }

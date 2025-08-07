@@ -30,6 +30,7 @@ function setup() {
     // bird sprite
     bird = new Sprite();
     bird.img = flapMidImg;
+    bird.y = 200;
     bird.bounciness = 1;
 
     world.gravity.y = 10;

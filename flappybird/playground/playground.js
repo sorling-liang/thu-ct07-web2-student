@@ -78,7 +78,7 @@ function draw() {
         bird.rotation = 30;
     }
     else {
-        // vel.y = 0
+        //  when vel.y = 0
         bird.img = flapMidImg;
         bird.rotation =0;
     }

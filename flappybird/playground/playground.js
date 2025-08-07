@@ -41,7 +41,7 @@ function setup() {
 
     floor = new Sprite();
     floor.collider = "static"; // dont move, stay at the position
-    floor.y = height - 50;
+    floor.y = height - 20;
     floor.img = base;
 }
 

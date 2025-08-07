@@ -56,9 +56,10 @@ function draw() {
     image(bg, 0, 0, width, height);
 
     if (kb.presses("space")) {
-
+        bird.vel.y = -15;
+        bird.sleeping = false; 
     }
-    
+
     // if (mouse.presses("left")) {
     //     new Sprite(mouseX, mouseY, 30, 30, "dynamic");
     // }

@@ -21,7 +21,7 @@ function setup() {
     background("skyblue"); // gray
 
     let floor = new Sprite();
-    floor.y = 
+    floor.y = height - 20;
     floor.img = base;
 }
 

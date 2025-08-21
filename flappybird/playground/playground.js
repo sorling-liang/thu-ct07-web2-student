@@ -121,6 +121,7 @@ function spawnPipePair() {
     pipeGroup.add(bottomPipe);
 
     topPipe = new Sprite(150, midY +200 +gap/2, 52, 320, "static");
+    topPipe.img = pipeImg;
     top
     pipeGroup.layer = 0; // move back-most layer
 }

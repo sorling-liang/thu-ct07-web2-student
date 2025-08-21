@@ -95,7 +95,7 @@ function draw() {
         bird.rotation =0;
     }
 
-    bird.x = bird.x + 2;
+    bird.x = bird.x + 2; // bird flying to the right side slowly
     camera.x = bird.x;
     floor.x = bird.x;
 

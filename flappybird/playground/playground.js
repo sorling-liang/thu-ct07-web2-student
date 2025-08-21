@@ -96,6 +96,7 @@ function draw() {
     }
 
     // frameCount is a system variable
+    // counting number of frames that has occurred
     if (frameCount === 1) {
         spawnPipePair();
     }

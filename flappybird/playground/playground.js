@@ -108,6 +108,10 @@ function draw() {
         spawnPipePair(); // every 2.5 minutes
     }
 
+    for (let aPipe of pipeGroup) {
+        
+    }
+
     // debugging
     fill("blue");
     textSize(14);

@@ -108,8 +108,7 @@ function draw() {
         spawnPipePair(); // every 2.5 minutes
     }
 
-    
-
+    // removing pipes in the left side of the canvas
     for (let aPipe of pipeGroup) {
         if (camera.x - aPipe.x > 300+25) {
             aPipe.remove();

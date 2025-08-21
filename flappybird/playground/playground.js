@@ -104,7 +104,9 @@ function draw() {
     if (frameCount === 1) {
         spawnPipePair(); // custom function that we are going to create
     }
-
+    if (frameCount % 120 === 0) {
+        spawnPipePair(); // custom function that we are going to create
+    }
     // debugging
     fill("blue");
     textSize(14);

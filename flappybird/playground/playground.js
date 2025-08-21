@@ -109,7 +109,9 @@ function draw() {
     }
 
     for (let aPipe of pipeGroup) {
-        if (camera.x - aPipe.x > 300+25
+        if (camera.x - aPipe.x > 300+25) {
+            aPipe.remove();
+        }
     }
 
     // debugging

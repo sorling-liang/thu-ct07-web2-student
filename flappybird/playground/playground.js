@@ -53,7 +53,10 @@ function setup() {
     floor.width = 400;
     floor.height = 125;
     floor.img = base;
+
+    
 }
+
 
 // called repeatedly 60 times per 1 second
 // where interaction and animation

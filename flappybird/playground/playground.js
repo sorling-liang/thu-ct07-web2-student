@@ -99,6 +99,8 @@ function draw() {
     camera.x = bird.x;
     floor.x = bird.x; // comment off if you want the bird to fly into the void
 
+    if (bird)
+
     // frameCount is a system variable
     // counting number of frames that has occurred
     if (frameCount === 1) {

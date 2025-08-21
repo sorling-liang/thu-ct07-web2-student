@@ -95,6 +95,7 @@ function draw() {
         bird.rotation =0;
     }
 
+    // frameCount is a system variable
     if (frameCount === 1) {
         spawnPipePair();
     }

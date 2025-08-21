@@ -95,7 +95,9 @@ function draw() {
         bird.rotation =0;
     }
 
-    bird.x = bird.x + 3;
+    bird.x = bird.x + 2;
+    camera.x = bird.x;
+    // floor.x = bird.x;
 
     // frameCount is a system variable
     // counting number of frames that has occurred

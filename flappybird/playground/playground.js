@@ -112,6 +112,9 @@ function draw() {
 
 // my custom function
 function spawnPipePair() {
+    let gap = 70;
+    let midY = height/2;
+    
     bottomPipe = new Sprite(150, height/2, 52, 320, "static");
     bottomPipe.img = pipeImg;
 }

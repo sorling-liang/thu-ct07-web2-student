@@ -109,7 +109,7 @@ function draw() {
     }
 
     for (let aPipe of pipeGroup) {
-        
+        aPipe.x
     }
 
     // debugging

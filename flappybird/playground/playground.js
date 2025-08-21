@@ -108,7 +108,7 @@ function draw() {
         spawnPipePair(); // every 2.5 minutes
     }
 
-    for (let count=0; count<10; count++)
+    
 
     for (let aPipe of pipeGroup) {
         if (camera.x - aPipe.x > 300+25) {

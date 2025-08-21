@@ -110,6 +110,7 @@ function draw() {
     text('sleeping: '  + bird.sleeping,     10, 60); // y must increase
 }
 
+// my custom function
 function spawnPipePair() {
-    
+
 }

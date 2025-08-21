@@ -112,5 +112,6 @@ function draw() {
 
 // my custom function
 function spawnPipePair() {
-    bottomPipe = new Sprite(150, y, w, h, "static");
+    bottomPipe = new Sprite(150, height/2, 52, 320, "static");
+    bottomPipe.img = pipeImg;
 }

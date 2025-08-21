@@ -54,7 +54,8 @@ function setup() {
     floor.height = 125;
     floor.img = base;
 
-    
+    // group to manage many pairs of pipes
+    pipeGroup = new Group();
 }
 
 

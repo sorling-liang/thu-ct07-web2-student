@@ -107,6 +107,7 @@ function draw() {
     if (frameCount % 150 === 0) {
         spawnPipePair(); // custom function that we are going to create
     }
+    
     // debugging
     fill("blue");
     textSize(14);
@@ -122,7 +123,7 @@ function draw() {
 // my custom function
 function spawnPipePair() {
     let gap = 70;
-    let midY = random(250, height-250); // 
+    let midY = random(250, height-250); // 250 to 350
 
     bottomPipe = new Sprite(bird.x+400, midY +200 +gap/2, 52, 320, "static");
     bottomPipe.img = pipeImg;

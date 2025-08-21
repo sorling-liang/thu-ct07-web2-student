@@ -112,5 +112,5 @@ function draw() {
 
 // my custom function
 function spawnPipePair() {
-
+    bottomPipe = new Sprite();
 }

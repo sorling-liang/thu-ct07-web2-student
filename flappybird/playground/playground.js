@@ -5,6 +5,7 @@ let bg, base; // images
 
 let flapMidImg, flapDownImg, flapUpImg; // bird images
 
+// lesson 5 part 2 - pipes
 let pipeGroup;
 let pipeImg;
 let bottomPipe, topPipe;

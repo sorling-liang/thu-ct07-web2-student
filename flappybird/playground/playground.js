@@ -113,7 +113,7 @@ function draw() {
     text('is moving: ' + bird.isMoving,       10, 40); // y must increase
     text('sleeping: '  + bird.sleeping,       10, 60); // y must increase
     text('pipes count: ' + pipeGroup.length,  10, 80); // y must increase
-    text('frameCount: ' + pipeGroup.length,  10, 80); // y must increase
+    text('frameCount: ' + frameCount,  10, 100); // y must increase
 
 }
 

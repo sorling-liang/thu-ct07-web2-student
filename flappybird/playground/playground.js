@@ -105,10 +105,10 @@ function draw() {
     fill("blue");
     textSize(14);
     //                                      x   y
-    text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
-    text('is moving: ' + bird.isMoving,     10, 40); // y must increase
-    text('sleeping: '  + bird.sleeping,     10, 60); // y must increase
-    text('pipes count: ' + pipeGroup.length,     10, 60); // y must increase
+    text('vel.y: ' + bird.vel.y.toFixed(2),   10, 20);
+    text('is moving: ' + bird.isMoving,       10, 40); // y must increase
+    text('sleeping: '  + bird.sleeping,       10, 60); // y must increase
+    text('pipes count: ' + pipeGroup.length,  10, 80); // y must increase
 
 }
 

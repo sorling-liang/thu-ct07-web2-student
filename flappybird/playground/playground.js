@@ -5,6 +5,10 @@ let bg, base; // images
 
 let flapMidImg, flapDownImg, flapUpImg; // bird images
 
+let pipeGroup;
+let pipeImg;
+let bottomPipe, topPipe;
+
 // load media files like images or sound effects
 function preload() {
     bg = loadImage('assets/background-day.png');

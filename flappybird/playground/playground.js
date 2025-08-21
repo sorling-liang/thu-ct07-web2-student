@@ -119,5 +119,5 @@ function spawnPipePair() {
     bottomPipe.img = pipeImg;
 
     pipeGroup.add(bottomPipe);
-    pipeGroup.layer = 0;
+    pipeGroup.layer = 0; // move back-most layer
 }

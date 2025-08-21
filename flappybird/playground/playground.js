@@ -124,12 +124,12 @@ function spawnPipePair() {
     let gap = 70;
     let midY = height/2;
 
-    bottomPipe = new Sprite(400, midY +200 +gap/2, 52, 320, "static");
+    bottomPipe = new Sprite(bird.x+400, midY +200 +gap/2, 52, 320, "static");
     bottomPipe.img = pipeImg;
 
     pipeGroup.add(bottomPipe);
 
-    topPipe = new Sprite(400, midY -200 -gap/2, 52, 320, "static");
+    topPipe = new Sprite(bird.x+400, midY -200 -gap/2, 52, 320, "static");
     topPipe.img = pipeImg;
     topPipe.rotation = 180;
 

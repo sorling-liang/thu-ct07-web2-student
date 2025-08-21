@@ -1,5 +1,26 @@
-lesson 2
+lesson 7
+next week is mid sem assessment
+do revision 30 mins today
 
+lesson 6
+sebastian is absent, so i go home early
+
+lesson 5
+finished bird animation, have not start on pipes
+added debugging messages on screen
+
+lesson 4
+start on flappybird here
+background image
+floor image
+bird image (one) - no animation yet
+
+
+lesson 3
+basics of JavaScript
+
+lesson 2
+features of p5play
 
 lesson 1
 no quizizz for ct07

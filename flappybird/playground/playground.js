@@ -105,9 +105,9 @@ function draw() {
         spawnPipePair(); // custom function that we are going to create
     }
     if (frameCount % 150 === 0) {
-        spawnPipePair(); // custom function that we are going to create
+        spawnPipePair(); // every 2.5 minutes
     }
-    
+
     // debugging
     fill("blue");
     textSize(14);

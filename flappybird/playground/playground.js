@@ -20,7 +20,7 @@ function preload() {
     flapDownImg = loadImage('assets/yellowbird-downflap.png');
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
 
-    pipeImg = loadImage('assets/pipe-red.
+    pipeImg = loadImage('assets/pipe-red.png');
 }
 
 

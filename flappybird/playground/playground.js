@@ -105,7 +105,7 @@ function draw() {
     floor.x = bird.x; // comment off if you want the bird to fly into the void
 
     if ( bird.collides(floor) || bird.collides(pipeGroup) ) {
-        gameOverLabel = new Sprite(width/2, height/2, 192, 42, "none"); // none - non interacting
+        gameOverLabel = new Sprite(width/2, height/2, 192, 42, "none"); // none: non interacting
 
         noLoop(); // dont call draw() anymore
     }

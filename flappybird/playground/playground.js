@@ -108,6 +108,7 @@ function draw() {
         gameOverLabel = new Sprite(width/2, height/2, 192, 42, "none"); // none: non interacting
         gameOverLabel.img = gameOverImg;
         gameOverLabel.layer = 1000; // come to the frontmost
+        gameOverLabel.x = camera.x;
 
         noLoop(); // dont call draw() anymore
     }

@@ -13,6 +13,8 @@ let bottomPipe, topPipe;
 let gameOverImg, gameOverLabel;
 let startScreenImg, startScreenLabel;
 
+let startGame = false;
+
 // load media files like images or sound effects
 function preload() {
     bg = loadImage('assets/background-day.png');

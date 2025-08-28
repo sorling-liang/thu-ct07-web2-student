@@ -105,6 +105,7 @@ function draw() {
     floor.x = bird.x; // comment off if you want the bird to fly into the void
 
     if ( bird.collides(floor) || bird.collides(pipeGroup) ) {
+
         noLoop(); // dont call draw() anymore
     }
 

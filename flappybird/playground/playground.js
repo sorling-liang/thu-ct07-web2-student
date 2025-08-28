@@ -30,7 +30,7 @@ function preload() {
     gameOverImg = loadImage('assets/gameover.png');
 
     // start screen image
-    startScreenImg = loadImage('assets/gameover.png');
+    startScreenImg = loadImage('assets/message.png');
 }
 
 
@@ -65,6 +65,8 @@ function setup() {
 
     // group to manage many pairs of pipes
     pipeGroup = new Group();
+
+    // start screen 
 }
 
 

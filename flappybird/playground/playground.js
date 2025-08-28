@@ -89,6 +89,8 @@ function draw() {
     }
 
     if (startGame === true) {
+        
+
     // || or condition in JavaScript
         // && and condition in JavaScript
         if (  kb.presses("space") || mouse.presses("left")  ) {

@@ -68,7 +68,7 @@ function setup() {
 
     // start screen sprite
     startScreenLabel = new Sprite(width/2, height/2, 184, 267, "none");
-    s
+    startScreenLabel.img = startScreenImg;
 }
 
 

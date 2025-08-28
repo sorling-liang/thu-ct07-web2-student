@@ -83,72 +83,72 @@ function draw() {
 
 
     if (startGame) {
- // || or condition in JavaScript
-    // && and condition in JavaScript
-    if (  kb.presses("space") || mouse.presses("left")  ) {
-        bird.vel.y = -5; // go in upward direction; velocity in the direction y axis
-        bird.sleeping = false; // wake up if sleeping
-    }
-
-    // if (mouse.presses("left")) {
-    //     new Sprite(mouseX, mouseY, 30, 30, "dynamic");
-    // }
-    // if (mouse.presses("right")) {
-    //     new Sprite(mouseX, mouseY, 30, 30, "static");
-    // }
-
-    if (bird.vel.y < -1) {
-        bird.img = flapDownImg;
-        bird.rotation = -30;
-    }
-    else if (bird.vel.y > 1) {
-        bird.img = flapUpImg;
-        bird.rotation = 30;
-    }
-    else {
-        //  when vel.y = 0
-        bird.img = flapMidImg;
-        bird.rotation =0;
-    }
-
-    bird.x = bird.x + 2; // bird flying to the right side slowly
-    camera.x = bird.x;
-    floor.x = bird.x; // comment off if you want the bird to fly into the void
-
-    if ( bird.collides(floor) || bird.collides(pipeGroup) ) {
-        gameOverLabel = new Sprite(width/2, height/2, 192, 42, "none"); // none: non interacting
-        gameOverLabel.img = gameOverImg;
-        gameOverLabel.layer = 1000; // come to the frontmost
-        gameOverLabel.x = camera.x;
-
-        noLoop(); // dont call draw() anymore
-    }
-
-    // frameCount is a system variable
-    // counting number of frames that has occurred
-    if (frameCount === 1) {
-        spawnPipePair(); // custom function that we are going to create
-    }
-    if (frameCount % 150 === 0) {
-        spawnPipePair(); // every 2.5 minutes
-    }
-
-    // removing pipes in the left side of the canvas
-    for (let aPipe of pipeGroup) {
-        if (camera.x - aPipe.x > 300+25) {
-            aPipe.remove();
+    // || or condition in JavaScript
+        // && and condition in JavaScript
+        if (  kb.presses("space") || mouse.presses("left")  ) {
+            bird.vel.y = -5; // go in upward direction; velocity in the direction y axis
+            bird.sleeping = false; // wake up if sleeping
         }
-    }
 
-    // debugging
-    fill("blue");
-    textSize(14);
-    //                                        x   y
-    text('vel.y: ' + bird.vel.y.toFixed(2),   10, 20);
-    text('is moving: ' + bird.isMoving,       10, 40); // y must increase
-    text('sleeping: '  + bird.sleeping,       10, 60); // y must increase
-    text('pipes count: ' + pipeGroup.length,  10, 80); // y must increase
-    text('frameCount: ' + frameCount,         10, 100); // y must increase
+        // if (mouse.presses("left")) {
+        //     new Sprite(mouseX, mouseY, 30, 30, "dynamic");
+        // }
+        // if (mouse.presses("right")) {
+        //     new Sprite(mouseX, mouseY, 30, 30, "static");
+        // }
+
+        if (bird.vel.y < -1) {
+            bird.img = flapDownImg;
+            bird.rotation = -30;
+        }
+        else if (bird.vel.y > 1) {
+            bird.img = flapUpImg;
+            bird.rotation = 30;
+        }
+        else {
+            //  when vel.y = 0
+            bird.img = flapMidImg;
+            bird.rotation =0;
+        }
+
+        bird.x = bird.x + 2; // bird flying to the right side slowly
+        camera.x = bird.x;
+        floor.x = bird.x; // comment off if you want the bird to fly into the void
+
+        if ( bird.collides(floor) || bird.collides(pipeGroup) ) {
+            gameOverLabel = new Sprite(width/2, height/2, 192, 42, "none"); // none: non interacting
+            gameOverLabel.img = gameOverImg;
+            gameOverLabel.layer = 1000; // come to the frontmost
+            gameOverLabel.x = camera.x;
+
+            noLoop(); // dont call draw() anymore
+        }
+
+        // frameCount is a system variable
+        // counting number of frames that has occurred
+        if (frameCount === 1) {
+            spawnPipePair(); // custom function that we are going to create
+        }
+        if (frameCount % 150 === 0) {
+            spawnPipePair(); // every 2.5 minutes
+        }
+
+        // removing pipes in the left side of the canvas
+        for (let aPipe of pipeGroup) {
+            if (camera.x - aPipe.x > 300+25) {
+                aPipe.remove();
+            }
+        }
+
+        // debugging
+        fill("blue");
+        textSize(14);
+        //                                        x   y
+        text('vel.y: ' + bird.vel.y.toFixed(2),   10, 20);
+        text('is moving: ' + bird.isMoving,       10, 40); // y must increase
+        text('sleeping: '  + bird.sleeping,       10, 60); // y must increase
+        text('pipes count: ' + pipeGroup.length,  10, 80); // y must increase
+        text('frameCount: ' + frameCount,         10, 100); // y must increase
 
     }
 

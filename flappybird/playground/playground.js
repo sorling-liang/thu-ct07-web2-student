@@ -89,7 +89,7 @@ function draw() {
     }
 
     if (startGame === true) {
-        
+        bird.v
 
     // || or condition in JavaScript
         // && and condition in JavaScript

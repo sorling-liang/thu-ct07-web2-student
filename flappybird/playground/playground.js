@@ -83,7 +83,8 @@ function draw() {
     // height: height of the canvas object
     image(bg, 0, 0, width, height);
 
-
+    if (  kb.presses("space") || mouse.presses()  ) {
+    }
 
     if (startGame === true) {
     // || or condition in JavaScript

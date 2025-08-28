@@ -10,7 +10,7 @@ let pipeGroup;
 let pipeImg;
 let bottomPipe, topPipe;
 
-let gameOverImg, gameOverSprite
+let gameOverImg, gameOverLabel;
 
 // load media files like images or sound effects
 function preload() {

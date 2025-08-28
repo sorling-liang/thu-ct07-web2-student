@@ -67,7 +67,7 @@ function setup() {
     pipeGroup = new Group();
 
     // start screen sprite
-    startScreenLabel = new Sprite(x,y,w,h,"none");
+    startScreenLabel = new Sprite(x,y,184,267,"none");
 }
 
 

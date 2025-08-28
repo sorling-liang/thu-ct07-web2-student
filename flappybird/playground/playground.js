@@ -28,6 +28,8 @@ function preload() {
 
     // game over image
     gameOverImg = loadImage('assets/gameover.png');
+        gameOverImg = loadImage('assets/gameover.png');
+
 }
 
 

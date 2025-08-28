@@ -99,13 +99,6 @@ function draw() {
             bird.sleeping = false; // wake up if sleeping
         }
 
-        // if (mouse.presses("left")) {
-        //     new Sprite(mouseX, mouseY, 30, 30, "dynamic");
-        // }
-        // if (mouse.presses("right")) {
-        //     new Sprite(mouseX, mouseY, 30, 30, "static");
-        // }
-
         if (bird.vel.y < -1) {
             bird.img = flapDownImg;
             bird.rotation = -30;

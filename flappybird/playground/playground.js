@@ -66,7 +66,7 @@ function setup() {
     // group to manage many pairs of pipes
     pipeGroup = new Group();
 
-    // start screen 
+    // start screen sprite
 }
 
 

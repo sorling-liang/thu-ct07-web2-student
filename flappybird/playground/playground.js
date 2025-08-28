@@ -92,7 +92,7 @@ function draw() {
         bird.visible = true;
         bird.collider = "dynamic";
 
-    // || or condition in JavaScript
+        // || or condition in JavaScript
         // && and condition in JavaScript
         if (  kb.presses("space") || mouse.presses("left")  ) {
             bird.vel.y = -5; // go in upward direction; velocity in the direction y axis

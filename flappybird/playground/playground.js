@@ -55,6 +55,7 @@ function setup() {
     bird.drag = 0.02; // air resistance
     bird.bounciness = 0.5;
     bird.collider = "static"; // can react to other sprite
+    bird.visible = false;
 
     world.gravity.y = 10;
 

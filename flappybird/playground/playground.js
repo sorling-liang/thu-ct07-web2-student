@@ -83,12 +83,7 @@ function draw() {
 
 
     if (startGame) {
-        
-    }
-
-
-
-    // || or condition in JavaScript
+ // || or condition in JavaScript
     // && and condition in JavaScript
     if (  kb.presses("space") || mouse.presses("left")  ) {
         bird.vel.y = -5; // go in upward direction; velocity in the direction y axis
@@ -155,6 +150,11 @@ function draw() {
     text('pipes count: ' + pipeGroup.length,  10, 80); // y must increase
     text('frameCount: ' + frameCount,         10, 100); // y must increase
 
+    }
+
+
+
+   
 }
 
 // my custom function

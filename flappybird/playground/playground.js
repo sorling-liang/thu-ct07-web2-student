@@ -11,6 +11,7 @@ let pipeImg;
 let bottomPipe, topPipe;
 
 let gameOverImg, gameOverLabel;
+let startScreenImg, startScreenLabel;
 
 // load media files like images or sound effects
 function preload() {

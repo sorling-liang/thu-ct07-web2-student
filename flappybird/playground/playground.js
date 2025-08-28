@@ -107,7 +107,7 @@ function draw() {
     if ( bird.collides(floor) || bird.collides(pipeGroup) ) {
         gameOverLabel = new Sprite(width/2, height/2, 192, 42, "none"); // none: non interacting
         gameOverLabel.img = gameOverImg;
-        gameOverLabel.layer = 1000
+        gameOverLabel.layer = 1000; // come to the frontmost
 
         noLoop(); // dont call draw() anymore
     }

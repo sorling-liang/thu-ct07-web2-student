@@ -10,6 +10,8 @@ let pipeGroup;
 let pipeImg;
 let bottomPipe, topPipe;
 
+let gameOverImg, gameOverSprite
+
 // load media files like images or sound effects
 function preload() {
     bg = loadImage('assets/background-day.png');

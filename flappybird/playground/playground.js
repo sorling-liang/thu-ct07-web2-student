@@ -15,6 +15,9 @@ let startScreenImg, startScreenLabel;
 
 let startGame = false;
 
+// lesson 7 part b
+let score = 0;
+
 // load media files like images or sound effects
 function preload() {
     bg = loadImage('assets/background-day.png');
@@ -151,6 +154,7 @@ function draw() {
         text('sleeping: '  + bird.sleeping,       10, 60); // y must increase
         text('pipes count: ' + pipeGroup.length,  10, 80); // y must increase
         text('frameCount: ' + frameCount,         10, 100); // y must increase
+        text('score: '     + score,               10, 120); // y must increase
 
     }
 

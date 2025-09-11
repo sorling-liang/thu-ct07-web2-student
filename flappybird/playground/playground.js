@@ -89,7 +89,7 @@ function setup() {
     startScreenLabel = new Sprite(width/2, height/2, 184, 267, "none");
     startScreenLabel.img = startScreenImg;
 
-//
+    // lesson 7 part 2
     scoreGroup = new Group();
     scoreGroup.collider = "none";
     scoreGroup.layer = 1000; // frontmost

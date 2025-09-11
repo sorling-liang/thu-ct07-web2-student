@@ -139,7 +139,10 @@ function draw() {
         floor.x = bird.x; // comment off if you want the bird to fly into the void
 
         // lesson 7 part 2
-        for (let pipe of pipeGroup)
+        for (let pipe of pipeGroup) {
+
+        }
+        // update display after adding score
         displayScore();
 
 

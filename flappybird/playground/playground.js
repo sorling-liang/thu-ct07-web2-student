@@ -39,6 +39,8 @@ function preload() {
 
     // start screen image
     startScreenImg = loadImage('assets/message.png');
+
+    
 }
 
 

@@ -145,7 +145,7 @@ function draw() {
                 let rightEdgePipe = pipe.x + pipe.width/2;
 
                 if ( leftEdgeBird > rightEdgePipe ) {
-                    
+                    score++;
                 }
             }
         }

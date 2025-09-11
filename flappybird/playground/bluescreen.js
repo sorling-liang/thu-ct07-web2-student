@@ -35,8 +35,8 @@ function draw() {
     else if ( kb.presses("down") ) {
         score--;
     }
-    //                       min max
-    score = constrain(score, 0,  99); // keep within the range of 0 to 9
+    //                       min  max
+    score = constrain(score, 0,  999); // keep within the range of 0 to 9
     displayScore(); // call my function
     
     textSize(16);

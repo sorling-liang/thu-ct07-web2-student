@@ -180,7 +180,7 @@ function draw() {
                 startScreenLabel.x = bird.x;
                 startScreenLabel.y = height/2;
 
-                loop(); // 
+                loop(); // restart the draw() loop
 
             }, 3000); // 3 seconds delay
 

@@ -1,8 +1,6 @@
 // variables section
 let score = 0;
-
 let digitImgs = []; // empty array
-
 let scoreGroup; // sprite group for easy management
 
 function preload() {

@@ -168,6 +168,8 @@ function draw() {
                 startGame = false;
 
                 pipeGroup.removeAll(); // no more obstacles
+                scoreGroup.removeAll();
+
                 bird.collider = "static";
                 bird.visible = false;
                 bird.rotation = 0; // flat

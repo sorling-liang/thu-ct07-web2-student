@@ -162,7 +162,7 @@ function draw() {
 
             noLoop(); // dont call draw() anymore
 
-            setTimeout(what, );
+            setTimeout(what, 3000);
         }
 
         // frameCount is a system variable

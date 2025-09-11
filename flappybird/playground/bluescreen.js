@@ -58,6 +58,7 @@ function displayScore() {
     let middle = width/2; // center of the screen
     for ( let one of scoreDigitArray ) {
         // inside the repeating
+        let 
     }
 
 }

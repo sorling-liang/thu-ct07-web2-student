@@ -51,7 +51,7 @@ function displayScore() {
 
     let scoreString = str(score); // get a number, convert it into a string
     let scoreDigitArray = scoreString.split(""); // split each number into a JS Array
-    // []
+    // ["3", "8", "9"]
     text("digits array: " + scoreDigitArray, 20, 70);
 
     let offset = 0;

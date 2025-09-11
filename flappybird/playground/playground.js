@@ -143,6 +143,10 @@ function draw() {
             if ( pipe.passed === false ) {
                 let leftEdgeBird = bird.x - bird.width/2;
                 let rightEdgePipe = pipe.x + pipe.width/2;
+
+                if ( leftEdgeBird > rightEdgePipe ) {
+                    
+                }
             }
         }
         // update display after adding score

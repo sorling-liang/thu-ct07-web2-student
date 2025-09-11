@@ -141,7 +141,7 @@ function draw() {
         // lesson 7 part 2
         for (let pipe of pipeGroup) {
             if ( pipe.passed === false ) {
-                
+                let 
             }
         }
         // update display after adding score

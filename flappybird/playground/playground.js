@@ -194,6 +194,9 @@ function spawnPipePair() {
     topPipe.img = pipeImg;
     topPipe.rotation = 180;
 
+    // lesson 7 part 2
+    top
+
     pipeGroup.add(topPipe);
 
     pipeGroup.layer = 0; // move back-most layer

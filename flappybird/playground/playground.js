@@ -162,7 +162,9 @@ function draw() {
 
             noLoop(); // dont call draw() anymore
 
-            setTimeout(() => {}, 3000); // 3 seconds delay
+            setTimeout(() => {
+                
+            }, 3000); // 3 seconds delay
 
         }
 

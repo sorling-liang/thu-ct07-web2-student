@@ -141,7 +141,8 @@ function draw() {
         // lesson 7 part 2
         for (let pipe of pipeGroup) {
             if ( pipe.passed === false ) {
-                let 
+                let leftEdgeBird = bird.x - bird.width/2;
+                let rightEdgePipe = pipe.x 
             }
         }
         // update display after adding score

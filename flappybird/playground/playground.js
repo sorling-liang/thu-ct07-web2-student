@@ -161,6 +161,8 @@ function draw() {
             gameOverLabel.x = camera.x;
 
             noLoop(); // dont call draw() anymore
+
+            setTimeout(what, );
         }
 
         // frameCount is a system variable

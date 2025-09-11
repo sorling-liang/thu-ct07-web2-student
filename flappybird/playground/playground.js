@@ -203,12 +203,10 @@ function displayScore() {
     // remove all members in the sprite group
     scoreGroup.removeAll();
 
-    //scoreSprite.img = digitImgs[0];
-
     let scoreString = str(score); // get a number, convert it into a string
     let scoreDigitArray = scoreString.split(""); // split each number into a JS Array
     // ["3", "8", "9"]
-    text("digits array: " + scoreDigitArray, 20, 70);
+    //text("digits array: " + scoreDigitArray, 20, 70);
 
     let offset = 0;
     let middle = width/2; // center of the screen

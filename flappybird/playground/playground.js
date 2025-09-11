@@ -142,7 +142,7 @@ function draw() {
         for (let pipe of pipeGroup) {
             if ( pipe.passed === false ) {
                 let leftEdgeBird = bird.x - bird.width/2;
-                let rightEdgePipe = pipe.x 
+                let rightEdgePipe = pipe.x + pipe.width/2;
             }
         }
         // update display after adding score

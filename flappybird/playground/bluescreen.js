@@ -66,6 +66,4 @@ function displayScore() {
         onedigit.img = digitImgs[one];
         offset = offset + 25;
     }
-
-
 }

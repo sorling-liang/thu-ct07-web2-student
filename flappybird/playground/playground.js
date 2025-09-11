@@ -195,7 +195,7 @@ function spawnPipePair() {
     topPipe.rotation = 180;
 
     // lesson 7 part 2
-    top
+    topPipe.passed = false; // for keeping score later
 
     pipeGroup.add(topPipe);
 

@@ -209,7 +209,7 @@ function displayScore() {
     //text("digits array: " + scoreDigitArray, 20, 70);
 
     let offset = 0;
-    let middle = width/2; // center of the screen
+    let middle = bird.x;
     for ( let one of scoreDigitArray ) {
         // inside the repeating
         let onedigit = new scoreGroup.Sprite(middle+offset, height/2, 24, 36);

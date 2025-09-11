@@ -58,7 +58,7 @@ function displayScore() {
     let middle = width/2; // center of the screen
     for ( let one of scoreDigitArray ) {
         // inside the repeating
-        let onedigit = new scoreGroup.Sprite(x,y,24,36);
+        let onedigit = new scoreGroup.Sprite(x, height/2, 24, 36);
     }
 
 }

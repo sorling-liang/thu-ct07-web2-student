@@ -15,7 +15,7 @@ let startScreenImg, startScreenLabel;
 
 let startGame = false;
 
-// lesson 7
+// lesson 7 part 2
 let score = 0;
 let digitImgs = []; // empty array
 let scoreGroup; // sprite group for easy management

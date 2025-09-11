@@ -177,7 +177,8 @@ function draw() {
                 gameOverLabel.remove(); // no more game over
 
                 startScreenLabel.visible = true;
-                startScreenLabel
+                startScreenLabel.x = bird.x;
+                startScreenLabel.y = height/2;
 
             }, 3000); // 3 seconds delay
 

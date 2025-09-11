@@ -134,7 +134,7 @@ function draw() {
             bird.rotation =0;
         }
 
-        bird.x = bird.x + 2; // bird flying to the right side slowly
+        bird.x = bird.x + 3; // bird flying to the right side slowly
         camera.x = bird.x;
         floor.x = bird.x; // comment off if you want the bird to fly into the void
 
@@ -168,7 +168,7 @@ function draw() {
         if (frameCount === 1) {
             spawnPipePair(); // custom function that we are going to create
         }
-        if (frameCount % 150 === 0) {
+        if (frameCount % 120 === 0) {
             spawnPipePair(); // every 2.5 minutes
         }
 

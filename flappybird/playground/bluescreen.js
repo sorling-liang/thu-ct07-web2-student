@@ -67,4 +67,6 @@ function displayScore() {
         offset = offset + 25;
     }
 
+    scoreGroup.x = width/2;
+
 }

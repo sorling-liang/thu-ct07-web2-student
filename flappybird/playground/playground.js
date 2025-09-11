@@ -167,6 +167,8 @@ function draw() {
                 score = 0;
                 startGame = false;
 
+                pip
+
             }, 3000); // 3 seconds delay
 
         }

@@ -58,7 +58,7 @@ function displayScore() {
     let middle = width/2; // center of the screen
     for ( let one of scoreDigitArray ) {
         // inside the repeating
-        let 
+        let onedigit = new Sprite(x,y,w,h);
     }
 
 }

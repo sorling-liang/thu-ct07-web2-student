@@ -29,7 +29,7 @@ function draw() {
     background("steelblue"); // erase
 
     if ( kb.presses("up") ) {
-        score = score + 10;
+        score++;
 
     }
     else if ( kb.presses("down") ) {

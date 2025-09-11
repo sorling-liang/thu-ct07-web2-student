@@ -168,7 +168,7 @@ function draw() {
                 startGame = false;
 
                 pipeGroup.removeAll(); // no more obstacles
-                scoreGroup.removeAll();
+                scoreGroup.removeAll(); // no score first
 
                 bird.collider = "static";
                 bird.visible = false;

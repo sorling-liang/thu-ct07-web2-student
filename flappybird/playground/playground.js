@@ -164,7 +164,9 @@ function draw() {
 
             setTimeout(() => {
                 //  write your codes here
-                
+                score = 0;
+                startGame = false;
+
             }, 3000); // 3 seconds delay
 
         }

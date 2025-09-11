@@ -176,7 +176,8 @@ function draw() {
 
                 gameOverLabel.remove(); // no more game over
 
-                st
+                startScreenLabel.visible = true;
+                startScreenLabel
 
             }, 3000); // 3 seconds delay
 

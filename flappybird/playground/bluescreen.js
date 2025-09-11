@@ -51,10 +51,11 @@ function displayScore() {
 
     let scoreString = str(score); // get a number, convert it into a string
     let scoreDigitArray = scoreString.split(""); // split each number into a JS Array
+    // []
     text("digits array: " + scoreDigitArray, 20, 70);
 
     let offset = 0;
     let middle = width/2; // center of the screen
     
-    
+
 }

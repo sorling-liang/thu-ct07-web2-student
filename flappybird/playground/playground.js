@@ -88,6 +88,11 @@ function setup() {
     // start screen sprite
     startScreenLabel = new Sprite(width/2, height/2, 184, 267, "none");
     startScreenLabel.img = startScreenImg;
+
+//
+    scoreGroup = new Group();
+    scoreGroup.collider = "none";
+    scoreGroup.layer = 1000; // frontmost
 }
 
 

@@ -29,7 +29,7 @@ function draw() {
     background("steelblue"); // erase
 
     if ( kb.presses("up") ) {
-        score++;
+        score = score + 10;
 
     }
     else if ( kb.presses("down") ) {
@@ -38,7 +38,7 @@ function draw() {
     else if ( kb.presses("3") ) {
         score = 105;
     }    
-    
+
     //                       min  max
     score = constrain(score, 0,  999); // keep within the range of 0 to 9
     displayScore(); // call my function

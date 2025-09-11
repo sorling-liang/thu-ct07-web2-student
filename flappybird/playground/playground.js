@@ -168,6 +168,7 @@ function draw() {
                 startGame = false;
 
                 pipeGroup.removeAll(); // no more obstacles
+                bird.collider = "static"
 
             }, 3000); // 3 seconds delay
 

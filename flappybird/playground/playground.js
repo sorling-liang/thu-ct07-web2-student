@@ -17,6 +17,9 @@ let startGame = false;
 
 // lesson 7 part b
 let score = 0;
+let digitImgs = []; // empty array
+let scoreGroup; // sprite group for easy management
+
 
 // load media files like images or sound effects
 function preload() {

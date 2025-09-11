@@ -40,7 +40,15 @@ function preload() {
     // start screen image
     startScreenImg = loadImage('assets/message.png');
 
-    
+    // lesson 7 part 2
+    let prefix = "assets/";
+    let postfix = ".png";
+
+    // loop to load all 10 digits
+    for (let count=0; count<10; count++) {
+        let filename = prefix + count + postfix;
+        digitImgs[count] = loadImage(filename);
+    }
 }
 
 

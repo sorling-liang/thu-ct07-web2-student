@@ -171,7 +171,7 @@ function draw() {
                 bird.collider = "static";
                 bird.visible = false;
                 bird.rotation = 0; // flat
-                bird.y = 2
+                bird.y = 200; // flying a bit
 
             }, 3000); // 3 seconds delay
 

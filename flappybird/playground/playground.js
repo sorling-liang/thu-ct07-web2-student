@@ -174,6 +174,10 @@ function draw() {
                 bird.vel.y = 0;
                 bird.y = 200; // flying a bit
 
+                gameOverLabel.remove(); // no more game over
+
+                st
+
             }, 3000); // 3 seconds delay
 
         }

@@ -146,6 +146,7 @@ function draw() {
 
                 if ( leftEdgeBird > rightEdgePipe ) {
                     score++;
+                    pipe.passed = true;
                 }
             }
         }

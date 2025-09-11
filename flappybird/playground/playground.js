@@ -170,7 +170,8 @@ function draw() {
                 pipeGroup.removeAll(); // no more obstacles
                 bird.collider = "static";
                 bird.visible = false;
-                bird.rotation = 0;
+                bird.rotation = 0; // flat
+                bird.y = 2
 
             }, 3000); // 3 seconds delay
 

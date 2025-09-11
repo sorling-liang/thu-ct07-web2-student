@@ -167,7 +167,7 @@ function draw() {
                 score = 0;
                 startGame = false;
 
-                pip
+                pipeGroup.removeAll(); // no more obstacles
 
             }, 3000); // 3 seconds delay
 

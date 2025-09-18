@@ -210,6 +210,7 @@ function draw() {
         if (frameCount % 120 === 0) {
             spawnPipePair(); // every 2.5 minutes
         }
+        if (frameCount % 300 === 0)
 
         // removing pipes in the left side of the canvas
         for (let aPipe of pipeGroup) {

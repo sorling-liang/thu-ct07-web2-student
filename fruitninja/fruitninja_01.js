@@ -41,6 +41,6 @@ function displayGameOver() {
     fill("white");
     textSize(24);
     text("Score: ", width/2, height/2+50);
-    text("Missed: ", width/2, height/2+50);
-    text("Score: ", width/2, height/2+50);
+    text("Missed: ", width/2, height/2+80);
+    text("Score: ", width/2, height/2+110);
 }

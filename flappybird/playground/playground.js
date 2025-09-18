@@ -119,7 +119,7 @@ function draw() {
         startScreenLabel.visible = false;
     }
 
-    if (startGame === true) {
+    if (startGame) {
         bird.visible = true;
         bird.collider = "dynamic";
 

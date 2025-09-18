@@ -26,7 +26,7 @@ let flapSound, pointSound, failSound;
 // load media files like images or sound effects
 function preload() {
     bg = loadImage('assets/background-day.png');
-    bgNight =
+    bgNight = loadImage('assets/background-night.png');
     base = loadImage('assets/base.png'); // floor
 
     // load 3 images into 3 variables

@@ -27,6 +27,7 @@ function setup() {
 
 function draw() {
     image(bg, 0,0, 800,600);
+    
     if (kb.presses("space")) {
         gameStart = true;
     }
@@ -34,8 +35,7 @@ function draw() {
     if (gameStart) {
         displayGameStats();
     } else {
-    //displayGameOver();
-
+        displayGameOver();
     }
 }
 

@@ -1,6 +1,10 @@
 let score;
 let missed;
 
+let bg;
+
+let gameStart = false;
+
 /*
 he checks the image size of dojo
 he guesstimate the size of the canvas himself

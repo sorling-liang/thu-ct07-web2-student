@@ -5,8 +5,6 @@ let bg, base; // images
 let bgNight;
 let useDay = true;
 
-useDay = !useDay;
-
 let flapMidImg, flapDownImg, flapUpImg; // bird images
 
 // lesson 5 part 2 - pipes

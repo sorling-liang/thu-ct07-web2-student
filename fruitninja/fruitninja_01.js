@@ -19,9 +19,9 @@ function preload() {
 
 function setup() {
     new Canvas(800,600);
-    background("pink");
+    background("brown");
 }
 
 function draw() {
-    image(bg, 0,0, 800,600);
+    //image(bg, 0,0, 800,600);
 }

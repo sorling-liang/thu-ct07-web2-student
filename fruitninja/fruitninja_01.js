@@ -42,5 +42,5 @@ function displayGameOver() {
     textSize(24);
     text("Score: ", width/2, height/2+50);
     text("Missed: ", width/2, height/2+80);
-    text("Score: ", width/2, height/2+110);
+    text("Press SPACE to restart", width/2, height/2+110);
 }

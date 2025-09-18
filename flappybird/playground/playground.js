@@ -20,7 +20,7 @@ let score = 0;
 let digitImgs = []; // empty array
 let scoreGroup; // sprite group for easy management
 
-let
+let flapSound, pointSound, failSound;
 
 // load media files like images or sound effects
 function preload() {

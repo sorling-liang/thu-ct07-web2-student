@@ -123,7 +123,7 @@ function draw() {
         bird.visible = true;
         bird.collider = "dynamic";
 
-        if (!useDay) {
+        if (useDay === false) {
             image(bgNight, 0, 0, width, height);
         }
 

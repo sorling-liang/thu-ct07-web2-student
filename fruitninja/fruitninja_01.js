@@ -14,7 +14,7 @@ he guesstimate the size of the canvas himself
 he can load bg image, by referring to flappybird code
 */
 function preload() {
-    bg = loadImage()
+    bg = loadImage("assets/")
 }
 
 function setup() {

@@ -15,7 +15,7 @@ he can load bg image, by refering to flappybird game code
 */
 
 /*
-he is trying to 
+he is trying to draw Text (for game on and game over)
 */
 function preload() {
     bg = loadImage("assets/dojobackground.png");

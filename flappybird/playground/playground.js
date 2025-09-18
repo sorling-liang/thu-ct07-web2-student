@@ -124,7 +124,7 @@ function draw() {
         bird.collider = "dynamic";
 
         // part 3 for day/night cycle
-        if (useDay === false) {
+        if (!useDay) {
             image(bgNight, 0, 0, width, height);
         }
 

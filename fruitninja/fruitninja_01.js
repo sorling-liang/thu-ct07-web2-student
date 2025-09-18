@@ -7,7 +7,7 @@ he guesstimate the size of the canvas himself
 */
 
 /*
-he
+he can load bg image, by referring to flappybird code
 */
 function setup() {
     new Canvas(800,600);

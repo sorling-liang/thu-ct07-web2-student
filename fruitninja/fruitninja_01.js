@@ -13,6 +13,10 @@ he guesstimate the size of the canvas himself
 /*
 he can load bg image, by refering to flappybird game code
 */
+
+/*
+he is trying to 
+*/
 function preload() {
     bg = loadImage("assets/dojobackground.png");
 }

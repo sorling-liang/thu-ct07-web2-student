@@ -2,6 +2,7 @@
 // variables goes here
 let bird, floor; // sprites
 let bg, base; // images
+let bgNight;
 
 let flapMidImg, flapDownImg, flapUpImg; // bird images
 

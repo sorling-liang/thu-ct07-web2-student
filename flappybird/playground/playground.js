@@ -51,7 +51,7 @@ function preload() {
         digitImgs[count] = loadImage(filename);
     }
 
-    flapSound = createAudio("assets/sfx_wings")
+    flapSound = createAudio("assets/sfx_wing.mp3");
 }
 
 

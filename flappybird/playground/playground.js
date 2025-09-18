@@ -111,7 +111,7 @@ function draw() {
     // show the background image
     // width: width of the canvas object
     // height: height of the canvas object
-    image(bg, 0, 0, width, height);
+    image(bgNight, 0, 0, width, height);
 
     if (  kb.presses("space") || mouse.presses()  ) {
         startGame = true;

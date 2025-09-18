@@ -168,6 +168,8 @@ function draw() {
             gameOverLabel.layer = 1000; // come to the frontmost
             gameOverLabel.x = camera.x;
 
+            failSound.play();
+
             noLoop(); // dont call draw() anymore
 
             setTimeout(() => {

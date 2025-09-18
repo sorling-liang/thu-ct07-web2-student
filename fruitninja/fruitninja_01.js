@@ -27,14 +27,14 @@ function setup() {
 
 function draw() {
     image(bg, 0,0, 800,600);
-    //displayGameOver();
     if (kb.presses("space")) {
         gameStart = true;
     }
 
     if (gameStart) {
-
+        displayGameStats();
     } else {
+    //displayGameOver();
 
     }
 }

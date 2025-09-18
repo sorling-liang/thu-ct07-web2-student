@@ -1,5 +1,5 @@
-let score;
-let missed;
+let score = 2;
+let missed = 10;
 
 let bg;
 

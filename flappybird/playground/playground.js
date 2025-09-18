@@ -124,8 +124,7 @@ function draw() {
         bird.collider = "dynamic";
 
         if (!useDay) {
-                image(bg, 0, 0, width, height);
-
+            image(bgNight, 0, 0, width, height);
         }
 
         // || or condition in JavaScript

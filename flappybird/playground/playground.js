@@ -50,6 +50,8 @@ function preload() {
         let filename = prefix + count + postfix;
         digitImgs[count] = loadImage(filename);
     }
+
+    flapSound = createAudio("assets/sfx_wings")
 }
 
 

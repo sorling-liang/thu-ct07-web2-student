@@ -33,5 +33,8 @@ function displayGameOver() {
     // draw text
     // red text to show GAME OVER per screenshot
     // white text for game stats
-    text("GAME OVER", width/2, height/2)
+    fill("red");
+    textSize(48);
+    textAlign(CENTER, CENTER);
+    text("GAME OVER", width/2, height/2);
 }

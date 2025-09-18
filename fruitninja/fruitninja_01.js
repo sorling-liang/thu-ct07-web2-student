@@ -38,4 +38,7 @@ function displayGameOver() {
     textSize(48);
     textAlign(CENTER, CENTER);
     text("GAME OVER", width/2, height/2);
+    fill("white");
+    textSize(24);
+    text("GAME OVER", width/2, height/2);
 }

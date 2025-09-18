@@ -125,6 +125,7 @@ function draw() {
         if (  kb.presses("space") || mouse.presses("left")  ) {
             bird.vel.y = -5; // go in upward direction; velocity in the direction y axis
             bird.sleeping = false; // wake up if sleeping
+            fl
         }
 
         if (bird.vel.y < -1) {

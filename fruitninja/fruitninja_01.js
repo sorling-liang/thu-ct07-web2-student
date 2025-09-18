@@ -3,6 +3,7 @@ let missed;
 
 /*
 he checks the image size of dojo
+he guesstimate the size of the canvas himself
 */
 
 /*

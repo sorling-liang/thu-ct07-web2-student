@@ -228,15 +228,15 @@ function draw() {
         }
 
         // debugging
-        fill("blue");
-        textSize(14);
-        //                                        x   y
-        text('vel.y: ' + bird.vel.y.toFixed(2),   10, 20);
-        text('is moving: ' + bird.isMoving,       10, 40); // y must increase
-        text('sleeping: '  + bird.sleeping,       10, 60); // y must increase
-        text('pipes count: ' + pipeGroup.length,  10, 80); // y must increase
-        text('frameCount: ' + frameCount,         10, 100); // y must increase
-        text('score: '     + score,               10, 120); // y must increase
+        // fill("blue");
+        // textSize(14);
+        // //                                        x   y
+        // text('vel.y: ' + bird.vel.y.toFixed(2),   10, 20);
+        // text('is moving: ' + bird.isMoving,       10, 40); // y must increase
+        // text('sleeping: '  + bird.sleeping,       10, 60); // y must increase
+        // text('pipes count: ' + pipeGroup.length,  10, 80); // y must increase
+        // text('frameCount: ' + frameCount,         10, 100); // y must increase
+        // text('score: '     + score,               10, 120); // y must increase
     }
 }
 

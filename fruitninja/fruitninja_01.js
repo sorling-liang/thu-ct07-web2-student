@@ -40,5 +40,5 @@ function displayGameOver() {
     text("GAME OVER", width/2, height/2);
     fill("white");
     textSize(24);
-    text("GAME OVER", width/2, height/2);
+    text("Score: ", width/2, height/2+50);
 }

@@ -123,6 +123,11 @@ function draw() {
         bird.visible = true;
         bird.collider = "dynamic";
 
+        if (!useDay) {
+                image(bg, 0, 0, width, height);
+
+        }
+
         // || or condition in JavaScript
         // && and condition in JavaScript
         if (  kb.presses("space") || mouse.presses("left")  ) {

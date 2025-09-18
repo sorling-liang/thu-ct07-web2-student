@@ -211,7 +211,7 @@ function draw() {
             spawnPipePair(); // every 2.5 minutes
         }
         if (frameCount % 300 === 0) {
-            
+            useDay = !useDay;
         }
 
         // removing pipes in the left side of the canvas

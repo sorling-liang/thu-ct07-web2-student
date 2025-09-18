@@ -154,7 +154,7 @@ function draw() {
 
                 if ( leftEdgeBird > rightEdgePipe ) {
                     score++;
-                    pointSound.play
+                    pointSound.play();
                     pipe.passed = true;
                 }
             }

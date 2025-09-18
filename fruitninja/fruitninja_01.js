@@ -29,9 +29,11 @@ function draw() {
     image(bg, 0,0, 800,600);
     //displayGameOver();
 }
-function displayHeader() {
-    
+
+function displayGameStats() {
+
 }
+
 function displayGameOver() {
     // draw text
     // red text to show GAME OVER per screenshot

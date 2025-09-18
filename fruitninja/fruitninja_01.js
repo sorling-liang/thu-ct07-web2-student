@@ -13,6 +13,10 @@ he guesstimate the size of the canvas himself
 /*
 he can load bg image, by referring to flappybird code
 */
+function preload() {
+    bg = loadImage()
+}
+
 function setup() {
     new Canvas(800,600);
     background("pink");

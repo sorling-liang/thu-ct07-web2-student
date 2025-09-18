@@ -216,7 +216,7 @@ function draw() {
             spawnPipePair(); // every 2.5 minutes
         }
         // part 2 of day/night cycle
-        if (frameCount % 300 === 0) {
+        if (frameCount % 6000 === 0) {
             useDay = !useDay;
         }
 

@@ -23,5 +23,5 @@ function setup() {
 }
 
 function draw() {
-    image(bg,)
+    image(bg, 800,600);
 }

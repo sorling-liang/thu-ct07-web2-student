@@ -16,7 +16,7 @@ function preload() {
 }
 
 function setup() {
-    new Canvas(800,600);
+    new Canvas(1000,600);
     background("brown");
 }
 

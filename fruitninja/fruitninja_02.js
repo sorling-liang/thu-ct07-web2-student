@@ -69,6 +69,7 @@ function displayGameStats() {
     fill("white"); // pen color
     textSize(24);
     textAlign(CENTER, CENTER);
+    text("Missed: 0", width/2, height/2);
 }
 
 function displayGameOver() {

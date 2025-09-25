@@ -66,7 +66,8 @@ function displayStartScreen() {
 }
 
 function displayGameStats() {
-
+    fill("white"); // pen color
+    textSize(24);
 }
 
 function displayGameOver() {

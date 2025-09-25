@@ -21,7 +21,7 @@ function setup() {
 }
 
 function draw() {
-    clear();
+    clear(); // erase the canvas
     
     image(bg, 0,0, width, height); // background image
 

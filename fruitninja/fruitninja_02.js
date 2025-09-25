@@ -22,7 +22,7 @@ function setup() {
 function draw() {
     clear();
     displayStartScreen();
-    image(bg, 0,0, width, height);
+    image(bg, 0,0, width, height); // background image
 
     // if (gameStart) {
     //     displayGameStats();

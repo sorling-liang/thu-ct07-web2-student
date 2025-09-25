@@ -35,6 +35,7 @@ function draw() {
     else if (kb.presses("down")) {
         bgm.stop();
     }
+    
     displayStartScreen();
 
     // if (gameStart) {

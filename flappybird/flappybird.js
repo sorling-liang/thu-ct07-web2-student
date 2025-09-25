@@ -213,7 +213,7 @@ function draw() {
             spawnPipePair(); // custom function that we are going to create
         }
         if (frameCount % 120 === 0) {
-            spawnPipePair(); // every 2.5 minutes
+            spawnPipePair(); // every 2 minutes
         }
         // part 2 of day/night cycle
         if (frameCount % 18000 === 0) {

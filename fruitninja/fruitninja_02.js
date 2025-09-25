@@ -1,7 +1,7 @@
 let score = 2;
 let missed = 10;
 let timer = 60;
-let fcStart;
+let fcStart = 0;
 
 let bg;
 
@@ -35,7 +35,7 @@ function draw() {
         if ( (frameCount-fcStart) % 60 === 0) {
             timer--;
         }
-        
+
     } else { 
         displayStartScreen();
     }

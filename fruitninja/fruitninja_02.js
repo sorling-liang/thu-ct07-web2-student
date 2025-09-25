@@ -29,7 +29,7 @@ function draw() {
     if (gameStart) {
         if (fcStart < 0) fcStart = frameCount; // keep a record
         
-        //displayGameOver();
+        
         displayGameStats(); // game progress statistics
 
         // every 1 second, decrease timer
@@ -38,6 +38,7 @@ function draw() {
         }
         if (timer === 0) {
             // handle game over?
+            displayGameOver();
         }
 
     } else { 

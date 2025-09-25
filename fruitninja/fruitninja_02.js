@@ -11,7 +11,7 @@ let soundfx;
 function preload() {
     bg = loadImage("assets/dojobackground.png");
     bgm = createAudio("assets/fruit-ninja-bgtrack.mp3");
-    soundfx = createAudio("assets/sfx_wing.mp3");
+    soundfx = createAudio("assets/fruit-ninja-combo.mp3");
 }
 
 function setup() {

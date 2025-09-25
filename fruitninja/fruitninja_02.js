@@ -61,10 +61,6 @@ function draw() {
     }
 
 
-
-    //else {
-    //     displayGameOver();
-    // }
 }
 
 function displayStartScreen() {
@@ -95,6 +91,7 @@ function displayGameStats() {
 }
 
 function displayGameOver() {
+    clear();
     // draw text
     // red text to show GAME OVER per screenshot
     // white text for game stats

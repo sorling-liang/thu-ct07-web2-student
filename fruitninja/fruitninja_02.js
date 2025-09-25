@@ -59,6 +59,10 @@ function draw() {
     else if (kb.presses("down")) {
         bgm.stop();
     }
+
+    if (mouse.presses()) {
+        
+    }
 }
 
 function displayStartScreen() {

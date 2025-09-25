@@ -47,7 +47,7 @@ function displayGameOver() {
     text("GAME OVER", width/2, height/2);
     fill("white"); // pen color
     textSize(24);
-    text("Score: " + score, width/2, height/2+50);
+    text("Score: " + score,          width/2, height/2+50);
     text("Missed Fruits: " + missed, width/2, height/2+80);
-    text("Press SPACE to Restart", width/2, height/2+110);
+    text("Press SPACE to Restart",   width/2, height/2+110);
 }

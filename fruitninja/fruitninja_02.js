@@ -32,7 +32,10 @@ function draw() {
         displayStartScreen();
     }
 
-    if (frameCount )
+    // every 1 second, decrease timer
+    if (frameCount % 60 === 0) {
+
+    }
     if (kb.presses("space")) {
         gameStart = true;
     }

@@ -27,7 +27,7 @@ function draw() {
         gameStart = true;
     }
     else if (kb.presses("1")) {
-        bgm.loop();
+        bgm.loop(); // play continuous
     }
     else if (kb.presses("2")) {
         soundfx.play();
@@ -54,7 +54,7 @@ function displayStartScreen() {
 
     fill("white"); // pen color
     textSize(24);
-    text("Press SPACE to Restart",   width/2, height/2+50);
+    text("Press SPACE to start",   width/2, height/2+50);
 }
 
 function displayGameStats() {

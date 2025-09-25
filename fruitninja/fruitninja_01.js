@@ -5,6 +5,8 @@ let bg;
 
 let gameStart = false;
 
+let bgm;
+let soundfx;
 
 function preload() {
     bg = loadImage("assets/dojobackground.png");

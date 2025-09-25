@@ -40,9 +40,6 @@ function draw() {
     }
     else if (kb.presses("2")) {
         soundfx.play();
-    }
-    else if (kb.presses("3")) {
-        displayGameOver();
     }    
     else if (kb.presses("down")) {
         bgm.stop();

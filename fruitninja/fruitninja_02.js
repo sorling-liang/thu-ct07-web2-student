@@ -10,6 +10,8 @@ let soundfx;
 
 function preload() {
     bg = loadImage("assets/dojobackground.png");
+    bgm = createAudio("assets/sfx_wing.mp3");
+
 }
 
 function setup() {

@@ -44,6 +44,12 @@ function draw() {
 
 function displayStartScreen() {
     // waiting for space key press
+    fill("red"); // pen color
+    textSize(48);
+      //       x        y
+    textAlign(CENTER, CENTER);
+    text("GAME OVER", width/2, height/2);
+
 }
 
 function displayGameStats() {

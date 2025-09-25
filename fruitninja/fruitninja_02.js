@@ -39,9 +39,10 @@ function draw() {
     }
 
 
-    // if (gameStart) {
-    //     displayGameStats();
-    // } else {
+    if (gameStart) {
+        displayGameStats();
+    } 
+    //else {
     //     displayGameOver();
     // }
 }

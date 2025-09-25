@@ -48,11 +48,11 @@ function displayStartScreen() {
     textSize(48);
       //       x        y
     textAlign(CENTER, CENTER);
-    text("GAME OVER", width/2, height/2);
+    text("FRUIT NINJA", width/2, height/2);
 
     fill("white"); // pen color
     textSize(24);
-    text("Press SPACE to Restart",   width/2, height/2+110);
+    text("Press SPACE to Restart",   width/2, height/2+50);
 }
 
 function displayGameStats() {

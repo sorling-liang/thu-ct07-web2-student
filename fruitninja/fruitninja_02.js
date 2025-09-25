@@ -23,6 +23,8 @@ function draw() {
     clear();
     image(bg, 0,0, 800,600);
 
+    displayStartScreen();
+
     if (kb.presses("space")) {
         gameStart = true;
     }
@@ -35,8 +37,7 @@ function draw() {
     else if (kb.presses("down")) {
         bgm.stop();
     }
-    
-    displayStartScreen();
+
 
     // if (gameStart) {
     //     displayGameStats();

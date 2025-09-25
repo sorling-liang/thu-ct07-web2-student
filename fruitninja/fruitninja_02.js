@@ -1,6 +1,7 @@
 let score = 2;
 let missed = 10;
 let timer = 60;
+let timestampStart;
 
 let bg;
 
@@ -36,7 +37,7 @@ function draw() {
     if (frameCount % 60 === 0) {
         timer--;
     }
-    
+
     if (kb.presses("space")) {
         gameStart = true;
     }

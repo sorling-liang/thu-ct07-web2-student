@@ -43,6 +43,7 @@ function displayGameOver() {
     // white text for game stats
     fill("red"); // pen color
     textSize(48);
+      //       x        y
     textAlign(CENTER, CENTER);
     text("GAME OVER", width/2, height/2);
     fill("white"); // pen color

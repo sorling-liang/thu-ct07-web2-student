@@ -32,6 +32,7 @@ function draw() {
         displayStartScreen();
     }
 
+    if (frameCount )
     if (kb.presses("space")) {
         gameStart = true;
     }

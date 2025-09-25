@@ -29,7 +29,7 @@ function draw() {
         bgm.loop();
     }
     else if (kb.presses("2")) {
-        soundfx.loop();
+        soundfx.play();
     }
     else if (kb.presses("down")) {
         bgm.stop();

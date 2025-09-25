@@ -27,7 +27,7 @@ function draw() {
         gameStart = true;
     }
     else if (kb.presses("1")) {
-        bgm.loop(); // play continuous
+        bgm.loop(); // play continuously
     }
     else if (kb.presses("2")) {
         soundfx.play();

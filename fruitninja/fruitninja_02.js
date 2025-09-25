@@ -35,7 +35,7 @@ function draw() {
     }
 
     // every 1 second, decrease timer
-    if (frameCount % 60 === 0) {
+    if ( (frameCount-fcStart) % 60 === 0) {
         timer--;
     }
 

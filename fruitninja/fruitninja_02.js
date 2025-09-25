@@ -32,7 +32,7 @@ function draw() {
         displayGameStats(); // game progress statistics
 
         // every 1 second, decrease timer
-        if ( (frameCount-fcStart) % 60 === 0) {
+        if ( (frameCount-fcStart+1) % 60 === 0) {
             timer--;
         }
 

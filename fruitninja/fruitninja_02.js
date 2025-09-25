@@ -34,8 +34,9 @@ function draw() {
 
     // every 1 second, decrease timer
     if (frameCount % 60 === 0) {
-
+        timer--;
     }
+    
     if (kb.presses("space")) {
         gameStart = true;
     }

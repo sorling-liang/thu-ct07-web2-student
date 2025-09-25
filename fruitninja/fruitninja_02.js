@@ -25,6 +25,8 @@ function draw() {
     if (kb.presses("space")) {
         gameStart = true;
     }
+    else if (kb.presses("1")) {
+    }
 
     if (gameStart) {
         displayGameStats();

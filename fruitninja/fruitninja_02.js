@@ -28,6 +28,9 @@ function draw() {
     else if (kb.presses("1")) {
         bgm.loop();
     }
+    else if (kb.presses("2")) {
+        soundfx.loop();
+    }
     else if (kb.presses("down")) {
         bgm.stop();
     }

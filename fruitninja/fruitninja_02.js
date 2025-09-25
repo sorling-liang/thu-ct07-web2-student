@@ -1,5 +1,6 @@
 let score = 2;
 let missed = 10;
+let timer = 0;
 
 let bg;
 

@@ -34,7 +34,8 @@ function draw() {
     else if (kb.presses("down")) {
         bgm.stop();
     }
-displayStartScreen()
+    displayStartScreen();
+    
     // if (gameStart) {
     //     displayGameStats();
     // } else {

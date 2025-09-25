@@ -30,10 +30,12 @@ function draw() {
         fcStart = frameCount;
         //displayGameOver();
         displayGameStats(); // game progress statistics
-            // every 1 second, decrease timer
+
+        // every 1 second, decrease timer
         if ( (frameCount-fcStart) % 60 === 0) {
             timer--;
         }
+        
     } else { 
         displayStartScreen();
     }

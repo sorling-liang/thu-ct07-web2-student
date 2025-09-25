@@ -1,3 +1,29 @@
+lesson 12 (tomorrow)
+
+lesson 11
+finished flappy bird 
+sound effects (3 sounds)
+
+extra day/night cycle
+
+one hour left, so no choice, had to start fruit ninja
+
+he wanted me to test him
+so i teach text()
+he draw text himself on dojo image for fruit ninja
+
+lesson 10
+game restart using js setTimeout()
+
+lesson 9
+finished display score
+follow moving bird/camera
+
+lesson 8
+did mid sem
+with one hour to spare
+so continue with flappy bird
+
 lesson 7
 next week is mid sem assessment
 do revision 30 mins today

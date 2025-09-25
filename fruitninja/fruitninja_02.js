@@ -38,6 +38,7 @@ function draw() {
         if (timer === 0) {
             // handle game over?
             displayGameOver();
+            noLoop(); // stop the draw() from repeating
         }
 
     } else { 

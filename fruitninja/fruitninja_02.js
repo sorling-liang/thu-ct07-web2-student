@@ -34,12 +34,12 @@ function draw() {
     else if (kb.presses("down")) {
         bgm.stop();
     }
-
-    if (gameStart) {
-        displayGameStats();
-    } else {
-        displayGameOver();
-    }
+displayStartScreen()
+    // if (gameStart) {
+    //     displayGameStats();
+    // } else {
+    //     displayGameOver();
+    // }
 }
 
 function displayStartScreen() {

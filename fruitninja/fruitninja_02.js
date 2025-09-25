@@ -1,7 +1,7 @@
 let score = 2;
 let missed = 10;
 let timer = 60;
-let fcStart = 0;
+let fcStart = -1;
 
 let bg;
 

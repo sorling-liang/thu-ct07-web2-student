@@ -29,7 +29,7 @@ function draw() {
     }
 }
 
-function displayGameStart() {
+function displayStartScreen() {
 
 }
 

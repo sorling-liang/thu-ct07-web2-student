@@ -26,6 +26,7 @@ function draw() {
         gameStart = true;
     }
     else if (kb.presses("1")) {
+        bgm.loop();
     }
 
     if (gameStart) {

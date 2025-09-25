@@ -30,7 +30,7 @@ function draw() {
 }
 
 function displayStartScreen() {
-
+    // waiting for space key press
 }
 
 function displayGameStats() {

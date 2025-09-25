@@ -74,6 +74,9 @@ function displayGameStats() {
 
     textAlign(CENTER, CENTER);
     text("Missed: " + missed, width/2, 28); // y =28
+
+    textAlign(RIGHT, CENTER);
+    ???
 }
 
 function displayGameOver() {

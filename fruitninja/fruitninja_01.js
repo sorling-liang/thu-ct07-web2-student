@@ -41,11 +41,11 @@ function displayGameOver() {
     // draw text
     // red text to show GAME OVER per screenshot
     // white text for game stats
-    fill("red");
+    fill("red"); // pen color
     textSize(48);
     textAlign(CENTER, CENTER);
     text("GAME OVER", width/2, height/2);
-    fill("white");
+    fill("white"); // pen color
     textSize(24);
     text("Score: " + score, width/2, height/2+50);
     text("Missed Fruits: " + missed, width/2, height/2+80);

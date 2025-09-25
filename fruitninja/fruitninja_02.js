@@ -21,7 +21,7 @@ function setup() {
 
 function draw() {
     clear();
-    image(bg, 0,0, 800,600);
+    image(bg, 0,0, width, height);
 
     if (gameStart) {
         displayGameStats();

@@ -27,6 +27,7 @@ function draw() {
     image(bg, 0,0, width, height); // background image
 
     if (gameStart === true) {
+        fcStart = frameCount;
         //displayGameOver();
         displayGameStats(); // game progress statistics
     } else { 

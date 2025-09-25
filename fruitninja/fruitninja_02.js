@@ -62,7 +62,7 @@ function draw() {
 
     if (mouse.presses()) {
         let abc = new Sprite(mouseX, mouseY, 35);
-        abc.vel.y = -6;
+        abc.vel.y = random(-6, -10);
     }
 }
 

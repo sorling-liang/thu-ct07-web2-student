@@ -26,8 +26,8 @@ function draw() {
     image(bg, 0,0, width, height); // background image
 
     if (gameStart === true) {
-        displayGameOver();
-        //displayGameStats(); // game progress statistics
+        //displayGameOver();
+        displayGameStats(); // game progress statistics
     } else { 
         displayStartScreen();
     }

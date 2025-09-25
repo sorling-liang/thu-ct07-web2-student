@@ -23,6 +23,9 @@ function draw() {
     clear();
     image(bg, 0,0, 800,600);
 
+    if (gameStart) {
+        displayGameStats();
+    } 
     displayStartScreen();
 
     if (kb.presses("space")) {
@@ -39,9 +42,7 @@ function draw() {
     }
 
 
-    if (gameStart) {
-        displayGameStats();
-    } 
+
     //else {
     //     displayGameOver();
     // }

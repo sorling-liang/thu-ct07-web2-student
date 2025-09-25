@@ -68,9 +68,9 @@ function displayStartScreen() {
 function displayGameStats() {
     fill("white"); // pen color
     textSize(24);
+
     textAlign(LEFT, CENTER);
     text("Score: " + score, 10, 28); // y =28
-
 
     textAlign(CENTER, CENTER);
     text("Missed: " + missed, width/2, 28); // y =28

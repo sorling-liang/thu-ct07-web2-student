@@ -21,14 +21,14 @@ function setup() {
 
 function draw() {
     clear();
-    displayStartScreen();
+    
     image(bg, 0,0, width, height); // background image
 
-    // if (gameStart) {
-    //     displayGameStats();
-    // } else { 
-    //     displayStartScreen();
-    // }
+    if (gameStart) {
+        displayGameStats();
+    } else { 
+        displayStartScreen();
+    }
 
     if (kb.presses("space")) {
         gameStart = true;

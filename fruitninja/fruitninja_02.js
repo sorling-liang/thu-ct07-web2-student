@@ -61,6 +61,7 @@ function draw() {
     }
 
     if (mouse.presses()) {
+        let abc = new Sprite(mouseX, mouseY, 35);
         
     }
 }

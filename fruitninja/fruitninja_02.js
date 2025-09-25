@@ -35,7 +35,7 @@ function draw() {
         if ( (frameCount-fcStart+1) % 60 === 0) {
             timer--;
         }
-        if (timer === 0) {
+        if (timer === 50) {
             // handle game over?
             displayGameOver();
             noLoop(); // stop the draw() from repeating

@@ -202,7 +202,7 @@ function splitFruit(xpos, ypos, fruitObject) {
 /*
 check his code
 where he call sliceFruit(), must be inside mouse.pressing() after slice animation
-date: 10-O
+date: 10-Oct-2025
 */
 function sliceFruit() {
     // loop thru all fruits still on screen

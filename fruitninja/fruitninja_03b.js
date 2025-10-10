@@ -12,7 +12,7 @@ let soundfx;
 
 let fruitGroup;
 let fruitHalves;
-let fruitTypes = []; // an Array in JavaScript
+let fruitTypes; // an Array in JavaScript
 
 function preload() {
     bg = loadImage("assets/dojobackground.png");
@@ -96,7 +96,7 @@ function draw() {
         timer = 60;
         score = 0;
         missed = 0;
-        
+
         fruitGroup.removeAll();
         fruitHalves.removeAll();
 

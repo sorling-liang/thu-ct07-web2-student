@@ -92,6 +92,12 @@ function draw() {
 
     } else if (gameState === "gameover") { 
         displayGameOver();
+        
+        timer = 60;
+        score = 0;
+        missed = 0;
+        fruitGroup.removeAll();
+        fruitHalves.removeAll();
 
         if (kb.presses("space") || mouse.presses()) {
             gameState = "play";

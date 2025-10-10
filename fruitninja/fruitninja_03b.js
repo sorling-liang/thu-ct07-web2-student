@@ -61,11 +61,7 @@ function draw() {
         }
         if (timer === 0) {
             gameState = "gameover";
-            timer = 60;
-            score = 0;
-            missed = 0;
-            fruitGroup.removeAll();
-            fruitHalves.removeAll();
+            
             return;
         }
         // every second

@@ -11,6 +11,7 @@ let bgm;
 let soundfx;
 
 let fruitGroup;
+let fruitHalves;
 let fruitTypes = []; // an Array in JavaScript
 
 function preload() {
@@ -173,4 +174,61 @@ function displayGameOver() {
     text("Score: " + score,          width/2, height/2+50);
     text("Missed Fruits: " + missed, width/2, height/2+80);
     text("Press SPACE to Restart",   width/2, height/2+110);
+}
+
+// slide deck 2
+// take note of all the properties
+// explain function that takes in parameters
+//
+function splitFruit(xpos, ypos, fruitObject) {
+    // i do for left half of fruit
+    let left = new fruitHalves.Sprite(xpos-10, ypos, 40);
+    left.img = fruitObject.half;
+    left.vel.x = -3; // veer left
+    left.vel.y = random(-5, -2);
+    left.rotationSpeed = -5; // rotate left
+    left.life = 30; // half a second
+
+    // let him do right half of fruit
+    let right = new fruitHalves.Sprite(xpos+10, ypos, 40);
+    right.img = fruitObject.half;
+    right.vel.x = 3; // veer right
+    right.vel.y = random(-5, -2);
+    right.rotationSpeed = 5; // rotate right
+    right.life = 30; // half a second
+}
+
+function sliceFruit() {
+    // loop thru all fruits still on screen
+    for (let fruit of fruitGroup) {
+        if (fruit.sliced) {
+            continue; // move on to the next fruit in the group
+        }
+
+        // if fruit is still whole
+        // calculate the dist
+        let d = dist(mouseX, mouseY, fruit.x, fruit.y);
+        // since using fruit.d (ie the diameter)
+        // check spawnFruit() carefully
+        if (d < (fruit.d/2)+5) {
+            fruit.sliced = true;
+
+            const fx = fruit.x;
+            const fy = fruit.y;
+            const whatIsIt = fruit.data; // see line 208 in spawnFruit()
+
+            fruit.remove();
+            // explain how to pass parameters to a custom function
+            splitFruit(fx, fy, whatIsIt);
+
+            if (whatIsIt.type === "bomb") {
+                gameState = "gameover";
+            } 
+            else {
+                score++
+            }
+
+            break; // slice only 1 fruit at each time
+        }
+    }
 }

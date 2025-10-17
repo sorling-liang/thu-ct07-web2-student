@@ -233,6 +233,7 @@ function splitFruit(xpos, ypos, fruitObject) {
     right.life = 30; // half a second
 }
 
+
 /*
 check his code
 where he call sliceFruit(), must be inside mouse.pressing() after slice animation

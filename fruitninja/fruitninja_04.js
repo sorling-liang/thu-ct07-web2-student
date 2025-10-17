@@ -110,7 +110,7 @@ function draw() {
         textSize(18);
         textAlign(LEFT, CENTER)
         text("fruitGroup.length="  + fruitGroup.length, 35,70);
-        text("fruitHalves.length=" + fruitHalves.length, 35,70);
+        text("fruitHalves.length=" + fruitHalves.length, 35,90);
 
     } else if (gameState === "start") { 
         displayStartScreen();

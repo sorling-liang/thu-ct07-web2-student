@@ -63,7 +63,7 @@ function draw() {
             trail.collider = "none";
             trail.life = 10; // 10 frames
 
-            sliceFruit();
+            sliceFruit(); // any fruit to slice
         }
         displayGameStats(); // game progress statistics
 

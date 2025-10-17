@@ -85,6 +85,9 @@ function draw() {
             const whatIsIt = one.type; // see line 208 in spawnFruit()
 
             if (one.y > height + 10) {
+                
+                // not counting bomb as missed
+
                 if (whatIsIt.type != "bomb") {
                     // update variable missed
                     missed++;

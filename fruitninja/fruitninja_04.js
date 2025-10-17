@@ -14,6 +14,10 @@ let fruitGroup;
 let fruitHalves;
 let fruitTypes; // an Array in JavaScript
 
+/*
+week 15:
+sebastian starts thinking how to spawn fruits faster as game progress
+*/
 function preload() {
     bg = loadImage("assets/dojobackground.png");
     bgm = createAudio("assets/fruit-ninja-bgtrack.mp3");

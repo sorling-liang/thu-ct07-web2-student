@@ -194,7 +194,7 @@ function displayGameStats() {
 }
 
 function displayGameOver() {
-    clear();
+    // clear();
     // draw text
     // red text to show GAME OVER per screenshot
     // white text for game stats

@@ -235,7 +235,8 @@ function splitFruit(xpos, ypos, fruitObject) {
 
 /*
 realised no need for fruitHalves group
-cos each split 
+cos each half fruit has life of 30 frames
+so length is always lesser
 */
 
 /*

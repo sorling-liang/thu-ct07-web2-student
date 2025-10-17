@@ -233,6 +233,10 @@ function splitFruit(xpos, ypos, fruitObject) {
     right.life = 30; // half a second
 }
 
+/*
+realised no need for fruitHalves group
+cos each split 
+*/
 
 /*
 check his code

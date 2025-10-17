@@ -19,6 +19,8 @@ week 15:
 sebastian starts thinking how to spawn fruits faster as game progress
 give him time to implement that
 
+*fixed the bug of slice fruit only when mouse pressed and dragged!
+
 */
 function preload() {
     bg = loadImage("assets/dojobackground.png");

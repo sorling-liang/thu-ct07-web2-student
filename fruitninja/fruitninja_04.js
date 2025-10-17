@@ -17,6 +17,8 @@ let fruitTypes; // an Array in JavaScript
 /*
 week 15:
 sebastian starts thinking how to spawn fruits faster as game progress
+give him time to implement that
+
 */
 function preload() {
     bg = loadImage("assets/dojobackground.png");

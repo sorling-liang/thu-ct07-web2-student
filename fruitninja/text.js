@@ -22,7 +22,7 @@ function draw() {
     textAlign(CENTER, CENTER);
     textSize(20); // font size
 
-    textY = 50;
+    textY = ypos;
     // write a loop to draw the text in the array here
     for(let index=0; index<starWars.length; index++) {
         text(starWars[index], width/2, textY);

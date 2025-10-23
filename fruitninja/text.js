@@ -7,5 +7,5 @@ function draw() {
     fill("white"); // text colour
     textAlign(CENTER, CENTER);
     textSize(48); // font size
-    text("Hello", width/2, height/2);
+    text("Hello I wanted something longer longer longer", width/2, height/2);
 }

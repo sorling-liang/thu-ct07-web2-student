@@ -15,5 +15,6 @@ function draw() {
     fill("white"); // text colour
     textAlign(CENTER, CENTER);
     textSize(18); // font size
+    // write a loop to draw the text in the array here
     text("Hello MEE", width/2, height/2);
 }

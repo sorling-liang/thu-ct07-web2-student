@@ -5,4 +5,5 @@ function setup() {
 
 function draw() {
     textSize(48); // font size
+    text("Hello", width/2, height/2);
 }

@@ -11,7 +11,7 @@ let textY;
 function setup() {
     new Canvas(400, 600);
     background('hotpink');
-    ypos = height;
+    ypos = height; // start from the bottom
 }
 
 function draw() {
@@ -30,4 +30,7 @@ function draw() {
     }
 
     ypos = ypos -1;
+    if (ypos < 0) {
+        
+    }
 }

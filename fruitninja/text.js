@@ -2,6 +2,7 @@ let starWars = [
     "long long long time ago,",
     "there was a group of students",
     "started on their journey to learn to code",
+    "and this is their story..",
 ];
 
 

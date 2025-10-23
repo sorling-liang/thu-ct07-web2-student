@@ -30,6 +30,7 @@ function draw() {
     }
 
     ypos = ypos -1;
+    // when reaching the top, must start from the bottom again
     if (ypos+100 < 0) {
         ypos = height;
     }

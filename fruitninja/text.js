@@ -30,7 +30,7 @@ function draw() {
     }
 
     ypos = ypos -1;
-    if (ypos < 0) {
+    if (ypos+300 < 0) {
         ypos = height;
     }
 }

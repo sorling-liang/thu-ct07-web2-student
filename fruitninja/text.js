@@ -29,5 +29,5 @@ function draw() {
         textY = textY + 50;
     }
 
-    ypos = ypos -5;
+    ypos = ypos -1;
 }

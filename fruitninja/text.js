@@ -15,11 +15,12 @@ function setup() {
 
 function draw() {
     // how to erase?
+    clear();
     fill("white"); // text colour
     textAlign(CENTER, CENTER);
     textSize(18); // font size
     // write a loop to draw the text in the array here
     for(let index=0; index<starWars.length; index++) {
-        text(starWars[index], width/2, height/2);
+        text(starWars[index], width/2, );
     }
 }

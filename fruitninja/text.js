@@ -1,5 +1,5 @@
 let starWars = [
-    "",
+    "long long long time ago,",
     "",
     "",
 ];

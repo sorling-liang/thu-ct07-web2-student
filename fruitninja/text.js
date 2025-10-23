@@ -1,6 +1,6 @@
 let starWars = [
     "long long long time ago,",
-    "",
+    "there was a group of students",
     "",
 ];
 

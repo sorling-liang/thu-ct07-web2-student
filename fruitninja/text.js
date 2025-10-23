@@ -28,4 +28,6 @@ function draw() {
         text(starWars[index], width/2, textY);
         textY = textY + 50;
     }
+
+    ypos = ypos -5;
 }

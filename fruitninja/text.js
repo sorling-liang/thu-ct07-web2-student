@@ -4,5 +4,5 @@ function setup() {
 }
 
 function draw() {
-
+    textSize(48); // font size
 }

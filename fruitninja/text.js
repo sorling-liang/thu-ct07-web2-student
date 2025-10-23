@@ -19,7 +19,7 @@ function draw() {
     background('hotpink');
     fill("white"); // text colour
     textAlign(CENTER, CENTER);
-    textSize(24); // font size
+    textSize(20); // font size
     textY = 50;
     // write a loop to draw the text in the array here
     for(let index=0; index<starWars.length; index++) {

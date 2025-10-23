@@ -1,4 +1,4 @@
-let star
+let starWars = [];
 
 
 function setup() {

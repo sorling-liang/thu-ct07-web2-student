@@ -16,9 +16,10 @@ function setup() {
 function draw() {
     // how to erase?
     clear();
+    background('hotpink');
     fill("white"); // text colour
     textAlign(CENTER, CENTER);
-    textSize(18); // font size
+    textSize(24); // font size
     textY = 50;
     // write a loop to draw the text in the array here
     for(let index=0; index<starWars.length; index++) {

@@ -25,6 +25,7 @@ give him time to implement that
 
 // week 17
 // game difficulty increases as game is in play
+let difficultyLevel = 1;
 
 function preload() {
     bg = loadImage("assets/dojobackground.png");

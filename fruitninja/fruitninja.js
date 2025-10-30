@@ -14,6 +14,7 @@ let fruitGroup;
 let fruitHalves;
 let fruitTypes; // an Array in JavaScript
 
+const 
 /*
 week 15:
 sebastian starts thinking how to spawn fruits faster as game progress

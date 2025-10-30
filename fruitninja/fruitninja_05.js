@@ -24,6 +24,8 @@ give him time to implement that
 */
 
 // week 17
+// game difficulty increases as game is in play
+
 function preload() {
     bg = loadImage("assets/dojobackground.png");
     bgm = createAudio("assets/fruit-ninja-bgtrack.mp3");

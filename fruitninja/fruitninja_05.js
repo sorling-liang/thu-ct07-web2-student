@@ -100,8 +100,8 @@ function draw() {
         if (timer < 60 && timer > 45) {
             difficultyLevel = 1;
         }
-        else if (timer < 45 && timer > 45) {
-            difficultyLevel = 1;
+        else if (timer < 45 && timer > 30) {
+            difficultyLevel = 2;
         }
 
         for (let one of fruitGroup) {

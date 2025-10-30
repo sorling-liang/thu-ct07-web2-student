@@ -226,7 +226,7 @@ function splitFruit(xpos, ypos, fruitObject) {
 
     // let him do right half of fruit
     let right = new fruitHalves.Sprite(xpos+10, ypos, 40);
-    right.img = fruitObject.half1;
+    right.img = fruitObject.half2;
     right.vel.x = 3; // veer right
     right.vel.y = random(-5, -2);
     right.rotationSpeed = 5; // rotate right

@@ -79,7 +79,7 @@ function draw() {
         if ( (frameCount-fcStart+1) % 60 === 0) {
             timer--;
         }
-        if (timer === 10) {
+        if (timer === 50) {
             gameState = "gameover";
             
             return;

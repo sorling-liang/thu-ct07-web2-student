@@ -22,6 +22,8 @@ give him time to implement that
 *fixed the bug of slice fruit only when mouse pressed and dragged!
 
 */
+
+// week 17
 function preload() {
     bg = loadImage("assets/dojobackground.png");
     bgm = createAudio("assets/fruit-ninja-bgtrack.mp3");

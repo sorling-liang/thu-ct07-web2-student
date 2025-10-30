@@ -218,7 +218,7 @@ function displayGameOver() {
 function splitFruit(xpos, ypos, fruitObject) {
     // i do for left half of fruit
     let left = new fruitHalves.Sprite(xpos-10, ypos, 40);
-    left.img = fruitObject.half1;
+    left.img = fruitObject.half;
     left.vel.x = -3; // veer left
     left.vel.y = random(-5, -2);
     left.rotationSpeed = -5; // rotate left
@@ -226,7 +226,7 @@ function splitFruit(xpos, ypos, fruitObject) {
 
     // let him do right half of fruit
     let right = new fruitHalves.Sprite(xpos+10, ypos, 40);
-    right.img = fruitObject.half2;
+    right.img = fruitObject.half;
     right.vel.x = 3; // veer right
     right.vel.y = random(-5, -2);
     right.rotationSpeed = 5; // rotate right

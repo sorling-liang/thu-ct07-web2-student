@@ -91,6 +91,7 @@ function draw() {
         }
         // every second
         if (frameCount % 60 === 0) {
+            // 
             spawnFruit();
         }
 

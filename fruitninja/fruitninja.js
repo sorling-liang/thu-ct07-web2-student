@@ -46,7 +46,7 @@ function preload() {
     lemon.whole = loadImage("assets/lemon.png");
     lemon.half = loadImage("assets/lemonhalf.png");
 
-    let bomb = { type: "bomb" };
+    let bomb = { type: "bomb", color: "red" };
     bomb.whole = loadImage("assets/fruitbomb.png");
     bomb.half = loadImage("assets/fruitbomb.png");
 

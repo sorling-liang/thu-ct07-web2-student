@@ -51,8 +51,8 @@ function preload() {
     bomb.half = loadImage("assets/fruitbomb.png");
 
     fruitTypes = [watermelon, peach, lemon, bomb];
-    if (fruitTypes != "bomb") {
-        
+    if (fruitTypes !== "bomb") {
+
     }
 }
 

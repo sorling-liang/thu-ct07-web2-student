@@ -125,6 +125,7 @@ function draw() {
         fruitGroup.removeAll();
         fruitHalves.removeAll();
 
+        // listen to events to allow restarting of the game
         if (kb.presses("space") || mouse.presses()) {
             timer = 60;
             score = 0;

@@ -100,7 +100,10 @@ function draw() {
         if (timer < 60 && timer > 45) {
             difficultyLevel = 1;
         }
-        
+        else if (timer < 45 && timer > 45) {
+            difficultyLevel = 1;
+        }
+
         for (let one of fruitGroup) {
             const whatIsIt = one.type; // see line 208 in spawnFruit()
 

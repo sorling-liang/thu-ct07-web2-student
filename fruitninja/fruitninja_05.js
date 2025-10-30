@@ -97,6 +97,7 @@ function draw() {
             }
         }
 
+        if (timer < 60)
         for (let one of fruitGroup) {
             const whatIsIt = one.type; // see line 208 in spawnFruit()
 

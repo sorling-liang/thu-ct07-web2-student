@@ -14,7 +14,8 @@ let fruitGroup;
 let fruitHalves;
 let fruitTypes; // an Array in JavaScript
 
-const 
+const mathPI = 3.142;
+
 /*
 week 15:
 sebastian starts thinking how to spawn fruits faster as game progress

@@ -45,4 +45,8 @@ function draw() {
     text("Guess the 5 letters hidden word!", width/2, 50);
     text("Attempts: " + attempts, width/2, 90);
     text("Hints: " + hint, width/2, 140);
+
+    fill("blue");
+    textSize(18);
+    text(message, width/2, 350);
 }

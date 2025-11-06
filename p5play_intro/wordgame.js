@@ -25,6 +25,10 @@ function setup() {
     //button1.size(150, 150);
 }
 
+function handleUserInput() {
+    
+}
+
 // forever loop
 function draw() {
     background("skyblue"); // clear();

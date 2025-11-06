@@ -7,7 +7,7 @@ let hint;
 
 let guessInput;
 let button1;
-let message = "new line";
+let message = "";
 
 function setup() {
     new Canvas(600, 500);

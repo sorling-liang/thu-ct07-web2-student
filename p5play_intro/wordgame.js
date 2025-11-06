@@ -30,6 +30,9 @@ function handleUserInput() {
     // to check if guess is matching the hidden word
     let guess = guessInput.value();
     console.log("user input: " + guess);
+    if (guess === hidden.toLowerCase()) {
+        me
+    }
 }
 
 // forever loop

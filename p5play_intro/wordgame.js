@@ -3,12 +3,14 @@ const LIBRARY = ["SKULL", "BEACH", "COVER", ];
 
 let attempts = 0;
 let hidden;
+let hint;
 
 function setup() {
     new Canvas(600, 500);
     background("skyblue");
     hidden = random(LIBRARY);
     console.log("hidden word is " + hidden);
+    hint = 
     console.log("hint is " + hidden[0]);
 }
 

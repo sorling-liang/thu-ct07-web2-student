@@ -10,7 +10,7 @@ function setup() {
     background("skyblue");
     hidden = random(LIBRARY);
     console.log("hidden word is " + hidden);
-    hint = hidden[0];
+    hint = hidden[0] + "";
     console.log("hint is " + hidden[0]);
 }
 

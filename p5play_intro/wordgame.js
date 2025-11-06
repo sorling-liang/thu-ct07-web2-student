@@ -28,6 +28,7 @@ function setup() {
 function handleUserInput() {
     // write the if condition
     // to check if guess is matching the hidden word
+    let guess = guessInput.value();
 }
 
 // forever loop

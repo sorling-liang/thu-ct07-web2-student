@@ -9,4 +9,6 @@ function draw() {
     background("skyblue"); // clear();
 
     textAlign(CENTER, CENTER);
+    textSize(36);
+    text("")
 }

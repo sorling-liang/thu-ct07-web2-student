@@ -7,7 +7,8 @@ let hidden;
 function setup() {
     new Canvas(600, 500);
     background("skyblue");
-    hidden = random(LI)
+    hidden = random(LIBRARY);
+    
 }
 
 function draw() {

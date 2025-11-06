@@ -10,7 +10,7 @@ function setup() {
     background("skyblue");
     hidden = random(LIBRARY);
     console.log("hidden word is " + hidden);
-    hint = 
+    hint = hidden[0];
     console.log("hint is " + hidden[0]);
 }
 
@@ -22,5 +22,5 @@ function draw() {
     textSize(36);
     text("Guess the 5 letters hidden word!", width/2, 50);
     text("Attempts: 0", width/2, 90);
-    text("Hints: T _ _ _ _", width/2, 140);
+    text("Hints: " + hint, width/2, 140);
 }

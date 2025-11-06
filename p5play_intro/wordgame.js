@@ -36,6 +36,7 @@ function handleUserInput() {
         message = "You are correct! The hidden word is " + hidden;
     }
     else {
+        let 
         message = "You are wrong! Try again";
     }
 }

@@ -25,7 +25,12 @@ function setup() {
     //button1.size(150, 150);
 }
 
-
+function handleUserInput() {
+    // write the if condition
+    // to check if guess is matching the hidden word
+    let guess = guessInput.value();
+    console.log("user input: " + guess);
+}
 
 // forever loop
 function draw() {

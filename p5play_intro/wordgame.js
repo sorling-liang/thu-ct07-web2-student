@@ -41,7 +41,7 @@ function handleUserInput() {
         hidden = hidden.toLowerCase();
         for (let index=0; index<hidden.length; index++) {
             if (guess[index] === hidden[index]) {
-                matchedletter.push()
+                matchedletter.push(guess[index])
             }
         }
         message = "You are wrong! Try again";

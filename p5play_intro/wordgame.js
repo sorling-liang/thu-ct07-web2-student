@@ -1,6 +1,13 @@
 // variables goes here
 const LIBRARY = ["SKULL", "BEACH", "COVER",
     "", "", "",
+    "", "", "",
+    "", "", "",
+    "", "", "",
+    "", "", "",
+    "", "", "",
+    "", "", "",
+    "", "", "",
 ];
 
 function setup() {

@@ -8,7 +8,7 @@ let hint;
 function setup() {
     new Canvas(600, 500);
     background("skyblue");
-    hidden = "incidentally"; //random(LIBRARY);
+    hidden = random(LIBRARY);
     console.log("hidden word is " + hidden);
     hint = hidden[0] + "_ ".repeat(hidden.length-1);
     console.log("hint is " + hidden[0]);

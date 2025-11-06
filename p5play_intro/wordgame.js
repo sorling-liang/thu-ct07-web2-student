@@ -16,7 +16,7 @@ function setup() {
     hint = hidden[0] + "_ ".repeat(hidden.length-1);
     //console.log("hint is " + hidden[0]);
 
-    guessInput = createInput("abc");
+    guessInput = createInput("");
     guessInput.position(width/2-150, 250);
 
 }

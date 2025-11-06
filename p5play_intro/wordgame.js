@@ -44,7 +44,7 @@ function handleUserInput() {
                 matchedletter.push(guess[index])
             }
         }
-        message = "You are wrong! Try again";
+        message = "You are wrong! These are found: " + ;
     }
 }
 

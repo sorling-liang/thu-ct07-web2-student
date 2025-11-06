@@ -21,7 +21,7 @@ function setup() {
 
     button1 = createButton("Guess");
     button1.position(width/2+30, 250);
-    button1.mousePressed()
+    button1.mousePressed( handleUserInput );
     //button1.size(150, 150);
 }
 

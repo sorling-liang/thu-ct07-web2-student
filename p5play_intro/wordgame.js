@@ -2,10 +2,12 @@
 const LIBRARY = ["SKULL", "BEACH", "COVER", ];
 
 let attempts = 0;
+let hidden;
 
 function setup() {
     new Canvas(600, 500);
     background("skyblue");
+    hidden = random(LI)
 }
 
 function draw() {

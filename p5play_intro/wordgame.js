@@ -11,6 +11,6 @@ function draw() {
     textAlign(CENTER, CENTER);
     textSize(36);
     text("Guess the hidden word!", width/2, 50);
-    text("Attempts: 0", width/2, 80);
-    text("Guess the hidden word!", width/2, 50);
+    text("Attempts: 0", width/2, 90);
+    text("Hints: T _ _ _ _", width/2, 140);
 }

@@ -36,6 +36,7 @@ function handleUserInput() {
         message = "You are correct! The hidden word is " + hidden;
     }
     else {
+        attempts = attempts+1;
         let matchedletter = [];
         guess = guess.toLowerCase();
         hidden = hidden.toLowerCase();

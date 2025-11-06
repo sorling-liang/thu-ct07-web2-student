@@ -29,6 +29,7 @@ function handleUserInput() {
     // write the if condition
     // to check if guess is matching the hidden word
     let guess = guessInput.value();
+    console.log("user input: " + guess);
 }
 
 // forever loop

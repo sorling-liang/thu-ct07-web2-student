@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-    background("skyblue");
+    background("skyblue"); // clear();
 
     textAlign(CENTER, CENTER);
 }

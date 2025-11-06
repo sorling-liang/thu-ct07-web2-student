@@ -1,5 +1,5 @@
 // variables goes here
-const LIBRARY = 
+const LIBRARY = ["SKULL", "BEACH", ""];
 
 function setup() {
     new Canvas(600, 500);

@@ -37,8 +37,10 @@ function handleUserInput() {
     }
     else {
         let matchedletter = [];
+        guess = guess.toLowerCase();
+        hidden = h
         for (let index=0; index<hidden.length; index++) {
-            
+
         }
         message = "You are wrong! Try again";
     }

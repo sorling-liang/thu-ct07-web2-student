@@ -31,7 +31,7 @@ function handleUserInput() {
     let guess = guessInput.value();
     console.log("user input: " + guess);
     if (guess === hidden.toLowerCase()) {
-        message = "You are correct!";
+        message = "You are correct! The hidden word is " + hidden;
     }
 }
 

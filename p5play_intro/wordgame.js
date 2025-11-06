@@ -1,6 +1,8 @@
 // variables goes here
 const LIBRARY = ["SKULL", "BEACH", "COVER", ];
 
+let attempts = 0;
+
 function setup() {
     new Canvas(600, 500);
     background("skyblue");

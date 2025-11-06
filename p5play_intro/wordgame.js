@@ -8,7 +8,7 @@ function setup() {
     new Canvas(600, 500);
     background("skyblue");
     hidden = random(LIBRARY);
-    
+    console.log("hidden word is " + hidden);
 }
 
 function draw() {

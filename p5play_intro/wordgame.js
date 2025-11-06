@@ -11,6 +11,7 @@ function setup() {
     console.log("hidden word is " + hidden);
 }
 
+// forever loop
 function draw() {
     background("skyblue"); // clear();
 

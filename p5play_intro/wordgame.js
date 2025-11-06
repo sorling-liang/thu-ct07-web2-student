@@ -36,7 +36,10 @@ function handleUserInput() {
         message = "You are correct! The hidden word is " + hidden;
     }
     else {
-        let 
+        let matchedletter = [];
+        for (let index=0; index<hidden.length; index++) {
+            
+        }
         message = "You are wrong! Try again";
     }
 }

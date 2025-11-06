@@ -5,6 +5,9 @@ let attempts = 0;
 let hidden;
 let hint;
 
+let guessInput;
+let button1;
+
 function setup() {
     new Canvas(600, 500);
     background("skyblue");

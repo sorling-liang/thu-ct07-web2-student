@@ -35,6 +35,9 @@ function handleUserInput() {
     if (guess.toLowerCase() === hidden.toLowerCase()) {
         message = "You are correct! The hidden word is " + hidden;
     }
+    else {
+        message = "You are wrong! Try again";
+    }
 }
 
 // forever loop

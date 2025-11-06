@@ -44,6 +44,7 @@ function handleUserInput() {
                 matchedletter.push(guess[index])
             }
         }
+        let someletters = matchedletter.join()
         message = "You are wrong! These are found: " + someletters;
     }
 }

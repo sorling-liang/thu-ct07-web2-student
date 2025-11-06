@@ -39,7 +39,7 @@ function handleUserInput() {
 // forever loop
 function draw() {
     background("skyblue"); // clear();
-
+    fill("black");
     textAlign(CENTER, CENTER);
     textSize(36);
     text("Guess the 5 letters hidden word!", width/2, 50);

@@ -45,7 +45,7 @@ function handleUserInput() {
             }
         }
         let someletters = matchedletter.join(" ");
-        someletters = s
+        someletters = someletters.toUpperCase();
         message = "You are wrong! These are found: " + someletters;
     }
 }

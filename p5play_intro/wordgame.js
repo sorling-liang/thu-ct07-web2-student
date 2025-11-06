@@ -19,7 +19,8 @@ function setup() {
     guessInput = createInput("");
     guessInput.position(width/2-150, 250);
 
-    button1 = createButton("")
+    button1 = createButton("Guess");
+    button1.position(width/2, 250);
 }
 
 // forever loop
